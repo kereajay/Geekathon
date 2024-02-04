@@ -37,11 +37,24 @@ body {
     gap: 1rem;
     justify-content: flex-end;
     margin-block: 2rem;
+    text-align: right;
+    align-items: center;
 }
 
 .bill-annualy {
     display: flex;
     gap: 1rem;
+    font-weight: 550;
+    font-size: 0.9rem;
+}
+
+.bill-annualy p:first-child {
+    color:rgb(103, 130, 157);
+}
+
+
+.bill-annualy p:nth-child(2) {
+    color: #006BFF;
 }
 
 .save {
@@ -500,6 +513,67 @@ body {
 }
 
 
+/* **************************** Styling Section 4*************************** */
 
+#bookingsection {
+    background-color: #0a2540;
+    color: white;
+    display: flex;
+}
 
+.booking-container {
+    display: flex;
+    padding: 6rem 9rem;
+    gap: 4rem;
+}
 
+.content-container {
+    flex: 2;
+}
+
+.button-container {
+    flex: 1;
+}
+
+.content-container h2 {
+    font-size: 3.125rem;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 24px;
+    text-align: left;
+}
+
+.content-container p {
+    text-align: left;
+    color: rgb(244, 248, 255);
+    font-size: 1.25rem;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+.button-container a {
+    text-decoration: none;
+    color: white;
+}
+
+.button-container .signup-free-button{
+    padding: 0.8rem 1.2rem;
+    background-color: #006BFF;
+    border-radius: 10px;
+}
+
+.signup-free-button:hover {
+    background-color: #0353c4;
+}
+.button-container .sales-button {
+    border: 1px solid white;
+    padding: 0.8rem 1.2rem;
+    border-radius: 10px;
+}
