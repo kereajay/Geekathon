@@ -1,0 +1,242 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#english {
+  height: 30px;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: row;
+  background-color: aliceblue;
+  text-align: center;
+  /* font-size: 20px; */
+  color: rgb(100, 118, 152);
+
+  padding-left: 80%;
+  padding-top: 1%;
+}
+
+#english span {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#english .material-icons {
+  color: rgb(100, 118, 152);
+  font-size: 20px;
+}
+
+#english .material-icons:hover {
+  color: rgb(0, 107, 255);
+  cursor: pointer;
+}
+
+#english:hover {
+  color: rgb(0, 107, 255);
+  cursor: pointer;
+}
+
+#calendlyimage {
+  /* margin-top: 0; */
+  margin-left: 10%;
+}
+
+header {
+  display: flex;
+  text-align: center;
+  padding-top: 1.5%;
+  padding-bottom: 0.5%;
+  /* justify-content: center; */
+  /* position: fixed; */
+  width: 100%;
+  background-color: white;
+  height: 5%;
+  border-bottom: 1px solid rgb(225, 225, 225);
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* background-color: yellow; */
+}
+
+#navbar {
+  margin-left: 8%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+#navbar a {
+  margin-left: 40px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  padding-top: 1%;
+  font-size: 16px;
+}
+
+#navbar .material-icons {
+  font-size: 32px;
+}
+
+#navbar :first-child {
+  color: rgb(0, 107, 255);
+}
+
+#login {
+  margin-left: 12%;
+}
+
+#login a {
+  text-decoration: none;
+  color: rgb(0, 107, 255);
+}
+
+#login button {
+  padding: 10px;
+  background-color: rgb(0, 107, 255);
+  border: 1px solid rgb(0, 107, 255);
+  color: white;
+  border-radius: 10px;
+  width: 120px;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.resourceHubHero {
+  padding: 6% 6%;
+  background-color: rgb(244, 248, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10%;
+
+  /* position: relative;
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: visible;
+  -webkit-box-pack: center;
+  justify-content: center; */
+}
+
+.resourceHubHeroLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* gap: 24px; */
+  /* position: relative; */
+  width: 100%;
+  max-width: 470px;
+  background-color: transparent;
+}
+.resourceHubHeroLeft h6 {
+  font-size: 16px;
+  color: blue;
+}
+.resourceHubHeroLeft h1 {
+  font-size: 68px;
+}
+.resourceHubHeroLeft p {
+  font-size: 20px;
+}
+
+/* .resourceHubHeroRight {
+  background-color: white;
+  box-shadow: 0 0 10px gray;
+  border-radius: 8px; */
+/* border: 1px solid rgb(231, 237, 246); */
+/* border: 1px solid black; */
+/* } */
+.imageCard {
+  box-sizing: border-box;
+  padding: 0;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  max-width: 380px;
+  min-width: 200px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 8px;
+  /* border: 1px solid black; */
+  background-color: white;
+  border-radius: 8px;
+}
+.imageCard:hover {
+  box-shadow: 0 0 10px gray;
+  cursor: pointer;
+}
+.imageCard img {
+  object-fit: cover;
+  width: 100%;
+  height: 60%;
+  /* border: 2px solid red; */
+}
+.imageCard .imageCardDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: 40%;
+  padding: 15px;
+  /* margin-left: 33px; */
+  /* border: 2px solid red; */
+}
+.imageCardDescription .imageCard-title {
+  /* width: 100%; */
+  text-align: left;
+  color: rgb(0, 107, 255);
+  font-size: 1rem;
+  line-height: 1.2;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+}
+.imageCardDescription .imageCard-details {
+  text-align: left;
+  color: black;
+  font-size: 1.5rem;
+  margin: 7px 0px;
+  font-weight: 700;
+  /* text-decoration: none; */
+}
+.imageCardDescription .imageCard-button {
+  margin: 4px 0px;
+  border: none;
+  background-color: transparent;
+  /* text-align: left; */
+  /* justify-content: baseline; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: center; */
+}
+.imageCard-button span {
+  color: #006bff;
+  font-size: 18px;
+}
+
+.imageCard-button i {
+  color: #006bff;
+}
+
+a {
+  text-decoration: none;
+}
+.resourceHubBlogPost {
+  width: 60%;
+  border: 2px solid red;
+  margin: 0px auto;
+  padding-top: 50px;
+}
+.resource-sub-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+}
