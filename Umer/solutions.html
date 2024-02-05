@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calendly</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -62,13 +63,15 @@
         <p id="p2">Sign up for free</p>
       </div>
       <p id="p3">SOLUTIONS BY ROLE</p>
-      <p id="p4">Solutions for every role</p>
+      <p id="p4" data-aos="fade-up" data-aos-duration="500">
+        Solutions for every role
+      </p>
     </div>
 
     <!-- sale_with images -->
 
-    <div class="soln_for_every_role">
-      <div class="left">
+    <div class="soln_for_every_role" data-aos="fade-up" data-aos-duration="500">
+      <!-- <div class="left">
         <div class="tagss">
           <h3>Sales</h3>
           <span>
@@ -193,21 +196,57 @@
             </svg>
           </span>
         </div>
-      </div>
+      </div> -->
+      <div class="left">
+        <button class="accordion">
+          <h3>Sales</h3>
+          <span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+              style="width: 20px"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </span>
+        </button>
+        <div class="panel">
+          <p>
+            Accelerate success at every stage of your sales cycle and drive more
+            revenue.
+          </p>
+        </div>
 
+        <button class="accordion">Section 2</button>
+        <div class="panel">
+          <p>Lorem ipsum...</p>
+        </div>
+
+        <button class="accordion">Section 3</button>
+        <div class="panel">
+          <p>Lorem ipsum...</p>
+        </div>
+      </div>
       <div class="right">
         <img src="sales_img.webp" alt="" />
       </div>
     </div>
 
     <!-- SOLUTIONS BY INDUSTRY -->
-
-    <div class="ind_headings">
+    <div class="ind_headings" data-aos="fade-up" data-aos-duration="500">
       <h2>SOLUTIONS BY INDUSTRY</h2>
       <h1>Solutions for any industry</h1>
     </div>
 
-    <div class="solns_by_ind">
+    <div class="solns_by_ind" data-aos="fade-up" data-aos-duration="500">
       <div class="leftside">
         <img src="ind_img.webp" alt="" />
       </div>
@@ -299,7 +338,7 @@
       </div>
     </div>
 
-    <div class="chris_williams">
+    <div class="chris_williams" data-aos="fade-up" data-aos-duration="500">
       <div class="leftyy">
         <p>
           “This is the way forward. Every customer will have a smooth
@@ -317,7 +356,7 @@
     </div>
 
     <div class="scheduling">
-      <div class="lside">
+      <div class="lside" data-aos="fade-up" data-aos-duration="500">
         <h1>Scheduling made easy</h1>
         <p>
           Drive more results for your team by optimizing your scheduling
@@ -326,7 +365,7 @@
         </p>
       </div>
 
-      <div class="rside">
+      <div class="rside" data-aos="fade-up" data-aos-duration="500">
         <p id="sign">Sign up for free</p>
         <p id="demo">Get a demo</p>
       </div>
@@ -476,6 +515,28 @@
         } else {
           nav.classList.remove("sticky");
         }
+      }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+          this.classList.toggle("active");
+          this.children[1].classList.toggle("rotate");
+          /* Toggle between hiding and showing the active panel */
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
       }
     </script>
   </body>

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -315,13 +317,14 @@ header {
 .scheduling {
   border: 1px solid black;
   border-radius: 15px;
-  width: 80%;
+  width: 60%;
   margin-left: 10%;
-  padding: 40px;
+  padding: 60px;
   background-color: #0b3558;
   color: white;
   display: flex;
   margin-top: 10%;
+  margin-left: 15%;
   margin-bottom: 10%;
 }
 
@@ -330,7 +333,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 3%;
 }
 
 .lside {
@@ -358,8 +360,14 @@ header {
   border-radius: 10px;
   font-size: 20px;
   border: 2px solid #006bff;
+  transition: 0.5s ease;
 }
 
+.rside > #sign:hover {
+  background-color: #005397;
+  border-color: #005397;
+  cursor: pointer;
+}
 .rside > #demo {
   background-color: white;
   color: #006bff;
@@ -368,8 +376,13 @@ header {
   margin-left: 3%;
   font-size: 20px;
   border: 2px solid #006bff;
+  transition: 0.5s ease;
 }
 
+.rside > #demo:hover {
+  color: #005397;
+  cursor: pointer;
+}
 #Ef {
   width: 80%;
 
@@ -433,13 +446,11 @@ header {
 }
 
 #Ef #featured #fe2 .material-icons {
-  /* font-size:25px; */
-  margin-top: 13px;
-  margin-left: 10px;
+  margin-top: 10px;
 }
 
 #Ef #featured #fe2 p {
-  margin-left: 15px;
+  padding: 15px;
 }
 
 #footer2 {
@@ -643,4 +654,36 @@ header {
 #footer4c .bi {
   font-size: x-large;
   margin-left: 20px;
+}
+
+.accordion {
+  /* background-color: #eee; */
+  outline: none;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  color: #444;
+  cursor: pointer;
+  padding: 18px 0;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.3s;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.rotate {
+  transform: rotate(180deg);
+}
+
+.panel {
+  padding: 18px 20px;
+  transition: all 0.3s;
+  border-bottom: 1px solid black;
+  background-color: white;
+  display: none;
+  overflow: hidden;
 }
