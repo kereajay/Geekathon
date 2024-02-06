@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
 body {
   margin: 0;
   padding: 0;
@@ -54,6 +59,7 @@ header {
   background-color: white;
   height: 5%;
   border-bottom: 1px solid rgb(225, 225, 225);
+  z-index: 1;
 }
 .sticky {
   position: fixed;
@@ -274,6 +280,7 @@ hr {
   /* border: 2px solid black; */
 }
 .resource-sub-navbar a {
+  text-decoration: none;
   padding: 5px 10px;
   margin-bottom: -5px;
 }
@@ -297,13 +304,15 @@ hr {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
   /* border: 2px solid blue; */
 }
 .image-card-content {
   display: flex;
   flex-direction: row;
   gap: 15px;
-  /* border: 1px solid grey; */
+  width: 100%;
+  justify-content: space-between;
 }
 
 h4 {
@@ -343,4 +352,443 @@ h4 {
   border-radius: 50%;
   cursor: pointer;
   color: blue;
+}
+
+.video-tutorials {
+  width: 70%;
+  /* border: 2px solid red; */
+  margin: 2rem auto;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.video-tutorials .video-tutorial-left {
+  width: 50%;
+}
+.video-tutorials .video-tutorial-right {
+  width: 50%;
+}
+.video-tutorial-right img {
+  object-fit: cover;
+  width: 100%;
+  min-width: auto;
+  max-width: 100%;
+  height: auto;
+  min-height: auto;
+  /* max-height: 500px; */
+}
+.video-tutorial-left h6 {
+  /* font-size: 1rem;
+  color: blue;
+  text-transform: uppercase; */
+  margin-bottom: 24px;
+  text-align: left;
+  color: rgb(0, 107, 255);
+  font-size: 1rem;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+}
+.video-tutorial-left h2 {
+  font-size: 2.375rem;
+  line-height: 1.2;
+  margin-bottom: 24px;
+  text-align: left;
+  color: rgb(11, 53, 88);
+  font-weight: 700;
+}
+.video-tutorial-left p {
+  font-size: 1.25rem;
+  margin: 32px 0px;
+  text-align: left;
+  color: #476788;
+}
+.video-tutorial-left a {
+  background-color: #006bff;
+  padding: 15px 25px;
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 5%;
+  overflow: hidden;
+  transition: all 0.25s ease-in-out;
+}
+.video-tutorial-left a:hover {
+  background-color: darkblue;
+  cursor: pointer;
+}
+.help {
+  /* width: 100%; */
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: row;
+  padding: 2% 10%;
+  background-color: rgb(244, 248, 255);
+}
+.help .help-left {
+  /* border: 2px solid blue; */
+  width: 40%;
+  padding-right: 2%;
+}
+.help .help-left h2 {
+  font-size: 3.25rem;
+  color: rgb(11, 53, 88);
+}
+.help .help-left p {
+  font-size: 1.25rem;
+  color: #476788;
+}
+.help .help-right {
+  /* border: 2px solid red; */
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+.help-center {
+  background-color: #006bff;
+  padding: 15px 25px;
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 5%;
+  overflow: hidden;
+  transition: all 0.25s ease-in-out;
+}
+.help-center:hover {
+  background-color: darkblue;
+  cursor: pointer;
+}
+.contact {
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 15px 25px;
+  font-size: 1.5rem;
+  color: #476788;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: all 0.25s ease-in-out;
+}
+.contact:hover {
+  cursor: pointer;
+}
+.ancestor {
+  /* border: 2px solid black; */
+  padding: 8% 10%;
+}
+.ancestor .card {
+  /* border: 2px solid blue; */
+  border-radius: 15px;
+  /* padding-left: 1%; */
+  box-shadow: 0 0 10px #476788;
+  overflow: hidden;
+  width: 98%;
+}
+.card img {
+  margin: 3% 3%;
+}
+.card p {
+  /* margin: 0 10px; */
+  font-size: 1.75rem;
+  margin: 3% 3%;
+  color: #0b3558;
+}
+.card span {
+  /* margin: 0 10px; */
+  font-size: 1.25rem;
+  margin: 3% 3%;
+  color: #0b3558;
+}
+.card a {
+  display: grid;
+  background-color: rgb(11, 53, 88);
+  overflow: hidden;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+.card a:hover {
+  background-color: rgb(71, 103, 136);
+}
+
+/* footer styling */
+
+#Ef {
+  width: 80%;
+
+  /* text-align: center; */
+  /* background-color: aqua; */
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+#easy {
+  width: 45%;
+}
+
+#easy h1 {
+  /* display: flex; */
+  font-size: 1.2cm;
+}
+
+#easy .e2 {
+  color: rgb(0, 107, 255);
+}
+
+#easy sup {
+  font-size: large;
+}
+
+#easy p {
+  font-size: larger;
+  /* column-width: 200px; */
+}
+
+#featured {
+  border: 1px solid rgb(225, 225, 225);
+  width: 50%;
+  display: flex;
+  padding-left: 30px;
+  border-radius: 5px;
+}
+
+#Ef #featured #fe1 h4 {
+  color: rgb(0, 107, 255);
+}
+
+#Ef #featured #fe1 p {
+  color: rgb(142, 142, 142);
+}
+
+#Ef #featured #fe2 {
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid grey;
+  height: 50px;
+  width: 170px;
+  border-radius: 10px;
+}
+
+#Ef #featured #fe2 .material-icons {
+  /* font-size:25px; */
+  margin-top: 13px;
+  margin-left: 10px;
+}
+
+#Ef #featured #fe2 p {
+  margin-left: 15px;
+}
+
+#footer2 {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* grid-template-rows: 200px; */
+  border-top: 1px solid rgb(225, 225, 225);
+  padding-top: 3%;
+}
+
+#footer2 #footer2a1 {
+  display: flex;
+}
+
+#footer2a1 a {
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+  font-weight: bold;
+}
+
+#footer2 #footer2a1 .material-icons {
+  margin-left: 10px;
+}
+
+#footer2 #footer2a {
+  display: flex;
+  flex-direction: column;
+}
+
+#footer2a a {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 15px;
+}
+
+#footer2 a small {
+  margin-left: 10px;
+}
+
+#footer2a .new {
+  color: rgb(0, 107, 255);
+  background-color: rgb(194, 194, 236);
+  padding: 4px;
+  border-radius: 10px;
+}
+
+#footer2a a:hover {
+  text-decoration: underline;
+}
+
+#footer2b :first-child {
+  font-size: larger;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+#footer2b {
+  display: flex;
+  flex-direction: column;
+}
+
+#footer2b a {
+  color: black;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+#footer2b a:hover {
+  text-decoration: underline;
+}
+
+#footer2c .comp {
+  font-size: larger;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+#footer2c {
+  display: flex;
+  flex-direction: column;
+}
+
+#footer2c a {
+  color: black;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+#footer2c a:hover {
+  text-decoration: underline;
+}
+
+#footer2c .wh {
+  /* font-weight: small; */
+  color: rgb(0, 107, 255);
+  background-color: rgb(194, 194, 236);
+  padding: 4px;
+  border-radius: 10px;
+}
+#footer3 {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 5%;
+  border-bottom: 1px solid rgb(225, 225, 225);
+  padding-bottom: 2%;
+}
+#footer3a :first-child {
+  font-size: larger;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+#footer3a {
+  display: flex;
+  flex-direction: column;
+}
+
+#footer3a a {
+  color: black;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+#footer3a a:hover {
+  text-decoration: underline;
+}
+#footer4 {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+}
+#footer4a {
+  height: 30px;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: row;
+  /* background-color: aliceblue; */
+  text-align: center;
+  /* font-size: 20px; */
+  color: rgb(100, 118, 152);
+
+  /* padding-left: 10%; */
+  padding-top: 1%;
+}
+
+#footer4a span {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#footer4a .material-icons {
+  color: rgb(100, 118, 152);
+  font-size: 20px;
+}
+
+#footer4a .material-icons:hover {
+  color: rgb(0, 107, 255);
+  cursor: pointer;
+}
+
+#footer4a:hover {
+  color: rgb(0, 107, 255);
+  cursor: pointer;
+}
+#footer4b {
+  display: flex;
+  flex-direction: row;
+}
+#footer4b a {
+  margin-right: 25px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+}
+#f4b1 {
+  display: flex;
+  flex-direction: row;
+}
+#f4b1 {
+  margin-top: 4px;
+}
+#f4b1 a {
+  color: rgb(142, 142, 142);
+  margin-top: 4px;
+}
+#f4b1 a:hover {
+  color: black;
+  /* margin-top: px; */
+}
+#footer4c .bi {
+  font-size: x-large;
+  margin-left: 20px;
 }
