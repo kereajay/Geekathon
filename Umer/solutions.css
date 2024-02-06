@@ -121,18 +121,18 @@ header {
 
 .solutions > h3 {
   color: #006bff;
+  font-size: 14px;
 }
 .hdd {
   color: #0b3558;
-  font-size: 25px;
+  font-size: 22px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
 }
 
 .pp {
-  font-size: 25px;
+  font-size: 20px;
   color: #476788;
   width: 47%;
   text-align: center;
@@ -141,7 +141,7 @@ header {
 .two_btn {
   display: flex;
   flex-direction: row;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .two_btn > #p1 {
@@ -150,7 +150,7 @@ header {
   border-radius: 5px;
   padding: 12px;
   margin-top: 20px;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .two_btn > #p1:hover {
@@ -183,6 +183,7 @@ header {
   font-size: 35px;
   font-weight: bold;
   color: #0b3558;
+  margin-top: 20px;
 }
 
 .soln_for_every_role {
@@ -195,9 +196,29 @@ header {
 .left {
   margin-top: 4%;
   /* border: 2px solid black; */
-  width: 50%;
+  width: 40%;
+  margin-left: 5%;
 }
 
+.panel {
+  color: rgb(96, 92, 92);
+}
+
+.learn-more {
+  display: flex;
+  padding-top: 10px;
+  cursor: pointer;
+  color: black;
+  font-weight: 500;
+}
+
+.learn-more:hover {
+  color: gray;
+  transition: 0.5s ease;
+}
+.learn-more > span {
+  margin-left: 5px;
+}
 .left > .tagss {
   display: flex;
   justify-content: space-between;
@@ -225,7 +246,7 @@ header {
 .ind_headings > h2 {
   font-size: 20px;
   color: #006bff;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 .ind_headings > h1 {
@@ -240,6 +261,9 @@ header {
   width: 100%;
 }
 
+.accordion > #acch3 {
+  padding-bottom: 30px;
+}
 .leftside {
   width: 40%;
   margin-left: 10%;
@@ -252,8 +276,8 @@ header {
 }
 
 .rightside {
-  width: 50%;
-  margin-top: 3%;
+  width: 35%;
+  margin-top: 5%;
   margin-right: 10%;
 }
 
@@ -301,7 +325,7 @@ header {
 
 .leftyy > h3 {
   margin-top: 2%;
-  font-weight: lighter;
+  font-weight: normal;
   color: #4d6788;
 }
 
@@ -450,7 +474,10 @@ header {
 }
 
 #Ef #featured #fe2 p {
-  padding: 15px;
+  cursor: pointer;
+  padding-top: 15px;
+  font-size: 13px;
+  margin-left: 8px;
 }
 
 #footer2 {
