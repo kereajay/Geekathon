@@ -4,11 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calendly</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
     <link rel="stylesheet" href="solutions.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
     <!-- Option 1: Include in HTML -->
     <link
       rel="stylesheet"
@@ -62,14 +67,16 @@
         <p id="p2">Sign up for free</p>
       </div>
       <p id="p3">SOLUTIONS BY ROLE</p>
-      <p id="p4">Solutions for every role</p>
+      <p id="p4" data-aos="fade-up" data-aos-duration="500">
+        Solutions for every role
+      </p>
     </div>
 
     <!-- sale_with images -->
 
-    <div class="soln_for_every_role">
+    <div class="soln_for_every_role" data-aos="fade-up" data-aos-duration="500">
       <div class="left">
-        <div class="tagss">
+        <button class="accordion">
           <h3>Sales</h3>
           <span>
             <svg
@@ -88,8 +95,19 @@
               />
             </svg>
           </span>
+        </button>
+        <div class="panel">
+          <p>
+            Accelerate success at every stage of your sales cycle and drive more
+            revenue.
+          </p>
+          <div class="learn-more">
+            <p id="lmore">Learn More</p>
+            <span class="material-symbols-outlined"> arrow_forward </span>
+          </div>
         </div>
-        <div class="tagss">
+
+        <button class="accordion">
           <h3>Recruiting</h3>
           <span>
             <svg
@@ -108,9 +126,18 @@
               />
             </svg>
           </span>
+        </button>
+        <div class="panel">
+          <p>
+            Increase candidate pipeline and hire faster with easier scheduling.
+          </p>
+          <div class="learn-more">
+            <p id="lmore">Learn More</p>
+            <span class="material-symbols-outlined"> arrow_forward </span>
+          </div>
         </div>
 
-        <div class="tagss">
+        <button class="accordion">
           <h3>Customer Success</h3>
           <span>
             <svg
@@ -129,9 +156,18 @@
               />
             </svg>
           </span>
+        </button>
+        <div class="panel">
+          <p>
+            Deliver better customer experience to improve retention and growth.
+          </p>
+          <div class="learn-more">
+            <p id="lmore">Learn More</p>
+            <span class="material-symbols-outlined"> arrow_forward </span>
+          </div>
         </div>
 
-        <div class="tagss">
+        <button class="accordion">
           <h3>Marketing</h3>
           <span>
             <svg
@@ -150,9 +186,19 @@
               />
             </svg>
           </span>
+        </button>
+        <div class="panel">
+          <p>
+            Supercharge your lead gen to boost conversion rates and drive more
+            pipeline.
+          </p>
+          <div class="learn-more">
+            <p id="lmore">Learn More</p>
+            <span class="material-symbols-outlined"> arrow_forward </span>
+          </div>
         </div>
 
-        <div class="tagss">
+        <button class="accordion">
           <h3>Revenue Operations</h3>
           <span>
             <svg
@@ -171,9 +217,19 @@
               />
             </svg>
           </span>
+        </button>
+        <div class="panel">
+          <p>
+            Integrate best-in-class scheduling to keep every team and
+            opportunity connected.
+          </p>
+          <div class="learn-more">
+            <p id="lmore">Learn More</p>
+            <span class="material-symbols-outlined"> arrow_forward </span>
+          </div>
         </div>
 
-        <div class="tagss">
+        <button class="accordion">
           <h3>Information Technology</h3>
           <span>
             <svg
@@ -192,6 +248,15 @@
               />
             </svg>
           </span>
+        </button>
+        <div class="panel">
+          <p>
+            Centralize teams and reduce risk with enterprise-grade security.
+          </p>
+          <div class="learn-more">
+            <p id="lmore">Learn More</p>
+            <span class="material-symbols-outlined"> arrow_forward </span>
+          </div>
         </div>
       </div>
 
@@ -201,20 +266,19 @@
     </div>
 
     <!-- SOLUTIONS BY INDUSTRY -->
-
-    <div class="ind_headings">
+    <div class="ind_headings" data-aos="fade-up" data-aos-duration="500">
       <h2>SOLUTIONS BY INDUSTRY</h2>
       <h1>Solutions for any industry</h1>
     </div>
 
-    <div class="solns_by_ind">
+    <div class="solns_by_ind" data-aos="fade-up" data-aos-duration="500">
       <div class="leftside">
         <img src="ind_img.webp" alt="" />
       </div>
 
       <div class="rightside">
-        <div class="tag">
-          <h3>Financial Services</h3>
+        <button class="accordion">
+          <h3 id="acch3">Financial Services</h3>
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -232,10 +296,20 @@
               />
             </svg>
           </span>
+        </button>
+        <div class="panel">
+          <p>
+            Modernize your client experience, boost client engagement, and
+            improve productivity to grow your business.
+          </p>
+          <div class="learn-more">
+            <p id="lmore">Learn More</p>
+            <span class="material-symbols-outlined"> arrow_forward </span>
+          </div>
         </div>
 
-        <div class="tag">
-          <h3>Education</h3>
+        <button class="accordion">
+          <h3 id="acch3">Education</h3>
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -253,10 +327,20 @@
               />
             </svg>
           </span>
+        </button>
+        <div class="panel">
+          <p>
+            Boost student engagement, increase accessibility to resources, and
+            accelerate the admissions cycle.
+          </p>
+          <div class="learn-more">
+            <p id="lmore">Learn More</p>
+            <span class="material-symbols-outlined"> arrow_forward </span>
+          </div>
         </div>
 
-        <div class="tag">
-          <h3>Professional Services</h3>
+        <button class="accordion">
+          <h3 id="acch3">Professional Services</h3>
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -274,10 +358,20 @@
               />
             </svg>
           </span>
+        </button>
+        <div class="panel">
+          <p>
+            Provide an exceptional client experience, improve team efficiency,
+            and increase project profitability.
+          </p>
+          <div class="learn-more">
+            <p id="lmore">Learn More</p>
+            <span class="material-symbols-outlined"> arrow_forward </span>
+          </div>
         </div>
 
-        <div class="tag">
-          <h3>Technology</h3>
+        <button class="accordion">
+          <h3 id="acch3">Technology</h3>
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -295,11 +389,21 @@
               />
             </svg>
           </span>
+        </button>
+        <div class="panel">
+          <p>
+            Win more deals, increase retention, recruit top talent, and connect
+            your tech stack to reach your full potential.
+          </p>
+          <div class="learn-more">
+            <p id="lmore">Learn More</p>
+            <span class="material-symbols-outlined"> arrow_forward </span>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="chris_williams">
+    <div class="chris_williams" data-aos="fade-up" data-aos-duration="500">
       <div class="leftyy">
         <p>
           “This is the way forward. Every customer will have a smooth
@@ -317,7 +421,7 @@
     </div>
 
     <div class="scheduling">
-      <div class="lside">
+      <div class="lside" data-aos="fade-up" data-aos-duration="500">
         <h1>Scheduling made easy</h1>
         <p>
           Drive more results for your team by optimizing your scheduling
@@ -326,7 +430,7 @@
         </p>
       </div>
 
-      <div class="rside">
+      <div class="rside" data-aos="fade-up" data-aos-duration="500">
         <p id="sign">Sign up for free</p>
         <p id="demo">Get a demo</p>
       </div>
@@ -476,6 +580,28 @@
         } else {
           nav.classList.remove("sticky");
         }
+      }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+          this.classList.toggle("active");
+          this.children[1].classList.toggle("rotate");
+          /* Toggle between hiding and showing the active panel */
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
       }
     </script>
   </body>

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -119,18 +121,18 @@ header {
 
 .solutions > h3 {
   color: #006bff;
+  font-size: 14px;
 }
 .hdd {
   color: #0b3558;
-  font-size: 25px;
+  font-size: 22px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
 }
 
 .pp {
-  font-size: 25px;
+  font-size: 20px;
   color: #476788;
   width: 47%;
   text-align: center;
@@ -139,7 +141,7 @@ header {
 .two_btn {
   display: flex;
   flex-direction: row;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .two_btn > #p1 {
@@ -148,7 +150,7 @@ header {
   border-radius: 5px;
   padding: 12px;
   margin-top: 20px;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .two_btn > #p1:hover {
@@ -181,6 +183,7 @@ header {
   font-size: 35px;
   font-weight: bold;
   color: #0b3558;
+  margin-top: 20px;
 }
 
 .soln_for_every_role {
@@ -193,9 +196,30 @@ header {
 .left {
   margin-top: 4%;
   /* border: 2px solid black; */
-  width: 50%;
+  width: 40%;
+  margin-left: 5%;
 }
 
+.panel {
+  color: rgb(96, 92, 92);
+}
+
+.learn-more {
+  display: flex;
+  padding-top: 10px;
+  cursor: pointer;
+  color: black;
+  font-weight: 500;
+}
+
+.learn-more:hover {
+  color: gray;
+  transition: 0.5s ease;
+}
+
+.learn-more > span {
+  margin-left: 5px;
+}
 .left > .tagss {
   display: flex;
   justify-content: space-between;
@@ -223,7 +247,7 @@ header {
 .ind_headings > h2 {
   font-size: 20px;
   color: #006bff;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 .ind_headings > h1 {
@@ -238,6 +262,9 @@ header {
   width: 100%;
 }
 
+.accordion > #acch3 {
+  padding-bottom: 30px;
+}
 .leftside {
   width: 40%;
   margin-left: 10%;
@@ -250,8 +277,8 @@ header {
 }
 
 .rightside {
-  width: 50%;
-  margin-top: 3%;
+  width: 35%;
+  margin-top: 5%;
   margin-right: 10%;
 }
 
@@ -299,7 +326,7 @@ header {
 
 .leftyy > h3 {
   margin-top: 2%;
-  font-weight: lighter;
+  font-weight: normal;
   color: #4d6788;
 }
 
@@ -315,13 +342,14 @@ header {
 .scheduling {
   border: 1px solid black;
   border-radius: 15px;
-  width: 80%;
+  width: 60%;
   margin-left: 10%;
-  padding: 40px;
+  padding: 60px;
   background-color: #0b3558;
   color: white;
   display: flex;
   margin-top: 10%;
+  margin-left: 15%;
   margin-bottom: 10%;
 }
 
@@ -330,7 +358,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 3%;
 }
 
 .lside {
@@ -358,8 +385,14 @@ header {
   border-radius: 10px;
   font-size: 20px;
   border: 2px solid #006bff;
+  transition: 0.5s ease;
 }
 
+.rside > #sign:hover {
+  background-color: #005397;
+  border-color: #005397;
+  cursor: pointer;
+}
 .rside > #demo {
   background-color: white;
   color: #006bff;
@@ -368,8 +401,13 @@ header {
   margin-left: 3%;
   font-size: 20px;
   border: 2px solid #006bff;
+  transition: 0.5s ease;
 }
 
+.rside > #demo:hover {
+  color: #005397;
+  cursor: pointer;
+}
 #Ef {
   width: 80%;
 
@@ -433,13 +471,14 @@ header {
 }
 
 #Ef #featured #fe2 .material-icons {
-  /* font-size:25px; */
-  margin-top: 13px;
-  margin-left: 10px;
+  margin-top: 10px;
 }
 
 #Ef #featured #fe2 p {
-  margin-left: 15px;
+  cursor: pointer;
+  padding-top: 15px;
+  font-size: 13px;
+  margin-left: 8px;
 }
 
 #footer2 {
@@ -643,4 +682,36 @@ header {
 #footer4c .bi {
   font-size: x-large;
   margin-left: 20px;
+}
+
+.accordion {
+  /* background-color: #eee; */
+  outline: none;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  color: #444;
+  cursor: pointer;
+  padding: 18px 0;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.3s;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.rotate {
+  transform: rotate(180deg);
+}
+
+.panel {
+  padding: 18px 20px;
+  transition: all 0.3s;
+  border-bottom: 1px solid black;
+  background-color: white;
+  display: none;
+  overflow: hidden;
 }
