@@ -3,6 +3,9 @@
 *{
     font-family: "Montserrat", sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+  }
 
 /* html{
     width: 100%;
@@ -237,6 +240,11 @@ header{
     
 }
 
+.page1 .wrap_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .wrap_button .sign_in{
     text-align: center;
     width:150px;
@@ -248,15 +256,17 @@ header{
     border-radius: 10px;
     
 }
-.wrap_button .sign_in a{
+
+.wrap_button .sign_in > a{
     text-decoration: none;
     color: white;
 }
 
 .wrap_button .demo{
+    height: 15px;
     text-align: center;
-    width: 100px;
-    padding: 17px;
+    width: 110px;
+    padding: 14px;
     background-color: white;
     text-decoration: none;
     font-size: 1.1rem;
@@ -266,7 +276,9 @@ header{
 }
 
 .wrap_button .demo a{
+    
     text-decoration: none;
+    /* text-align: center; */
     color: rgb(0,107,255);
 }
 .img1{
@@ -310,7 +322,7 @@ header{
 width: 30%;
 height: 32px;
 animation-name: slider;
-animation-duration: 2s;
+animation-duration: 5s;
 animation-iteration-count: infinite;
 }
 
@@ -322,11 +334,18 @@ animation-iteration-count: infinite;
     0%{
         transform: translateX(-15%);
     }
-    50%{
+    25%{
         transform: translateX(-30%);
     }
-    100%{
+    
+    50%{
         transform: translateX(-45%);
+    }
+    75%{
+        transform: translateX(-60%);
+    }
+    100%{
+        transform: translateX(-75%);
     }
 }
 
@@ -424,20 +443,36 @@ animation-iteration-count: infinite;
 }
 
 .page4 .icon{
-    width: 45%;
+    width: 55%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid grey;
     border-radius: 10px;
     padding: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* position: fixed; */
+    /* top: 30; */
+}
+
+.page4 .icon .icons:hover{
+    border: 3px solid  rgb(0,107,255);
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #f4f8ff;
 }
 
 .page4 .icon .icons{
-    margin-top: 5px;
+    width: 15%;
+    border: 3px solid transparent;
+    height: 100%;
+    padding-top: 10px;
+    /* margin-top: 5px; */
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.page4 .icon  #cust{
+    width: 25%;
 }
 
 .page4 .icon .icons > p{
