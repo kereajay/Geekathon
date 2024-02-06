@@ -70,6 +70,7 @@ overflow: hidden;
     display: flex;
     flex-direction: row;
     text-align: center;
+    /* display: none; */
 }
 
 #navbar a {
@@ -108,6 +109,10 @@ overflow: hidden;
     font-size: 15px;
     margin-left: 20px;
 }
+#head #ham{
+    content-visibility:hidden;
+}
+
 footer{
     margin-top: 5%;
 }
@@ -1445,6 +1450,9 @@ margin-top: 25px;
     flex-flow: column nowrap;
     height: 90vh;
 }
+#together::-webkit-scrollbar {
+    display: none;
+}
 
 #together #Meeting {
     display: grid;
@@ -1524,3 +1532,409 @@ margin-top: 25px;
 #meeting2 img {
     width: 90%;
 }
+
+@media screen and (max-width:1400px){
+    #head{
+       /* width: 1000px; */
+       /* background-color: brown; */
+       display: flex;
+       flex-direction: row;
+       height: 5%;
+    }
+    #navbar {
+        /* margin-left: 8%; */
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        /* display: none; */
+    }
+    #navbar a {
+        margin-left: 40px;
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        padding-top: 1%;
+        font-size: 16px;
+    }
+    #head #login{
+        margin-left: 10%;
+    }
+    .sticky {
+        position: fixed;
+        top: 0;
+        /* width: 1000px; */
+        /* width: 100%; */
+        /* background-color: yellow; */
+    }
+    #scheduling h1 {
+        font-size: 1.8cm;
+        padding: 0;
+        margin: 0;
+        margin-top: 2%;
+    }
+    #scheduling p {
+        font-size: larger;
+    }
+    #main {
+        height: 80vh;
+        /* width: 100%; */
+        /* background-image: url("https://marketing-assets.calendly.com/media/experimentImages/hero-bkg-half-no-margin.png"); */
+        background-size: 100%;
+        /* background-color: aqua; */
+        margin: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background-color: aqua; */
+    
+    
+    }
+    #video {
+        height:700px;
+        width: 1200px;
+        /* background-color: aqua; */
+        margin: auto;
+    }
+}
+@media screen and (max-width:1300px){
+    #head{
+       /* width: 1000px; */
+       /* background-color: brown; */
+       display: flex;
+       flex-direction: row;
+       height: 5%;
+    }
+    #calendlyimage {
+        /* margin-top: 0; */
+        margin-left: 8%;
+    
+    }
+    #navbar {
+        /* margin-left: 8%; */
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        /* display: none; */
+    }
+    #navbar a {
+        margin-left: 30px;
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        padding-top: 1%;
+        font-size: 16px;
+    }
+    #head #login{
+        margin-left: 5%;
+    }
+    .sticky {
+        position: fixed;
+        top: 0;
+        /* width: 1000px; */
+        /* width: 100%; */
+        /* background-color: yellow; */
+    }
+    #scheduling h1 {
+        font-size: 1.5cm;
+        padding: 0;
+        margin: 0;
+        margin-top: 2%;
+    }
+    #scheduling p {
+        font-size: larger;
+    }
+    #main {
+        height: 80vh;
+        /* width: 100%; */
+        /* background-image: url("https://marketing-assets.calendly.com/media/experimentImages/hero-bkg-half-no-margin.png"); */
+        background-size: 100%;
+        /* background-color: aqua; */
+        margin: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background-color: aqua; */
+    
+    
+    }
+    #video {
+        height:600px;
+        width: 1000px;
+        /* background-color: aqua; */
+        margin: auto;
+       
+    }
+}
+@media screen and (max-width:1200px){
+    #head{
+       /* width: 1000px; */
+       /* background-color: brown; */
+       display: flex;
+       flex-direction: row;
+       height: 5%;
+    }
+    #calendlyimage {
+        /* margin-top: 0; */
+        margin-left: 5%;
+    
+    }
+    #navbar {
+        /* margin-left: 8%; */
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        /* display: none; */
+    }
+    #navbar a {
+        margin-left: 20px;
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        padding-top: 1%;
+        font-size: 16px;
+    }
+    #head #login{
+        /* margin-left: 5%; */
+    }
+    .sticky {
+        position: fixed;
+        top: 0;
+        /* width: 1000px; */
+        /* width: 100%; */
+        /* background-color: yellow; */
+    }
+    #scheduling h1 {
+        font-size: 1.2cm;
+        padding: 0;
+        margin: 0;
+        margin-top: 2%;
+    }
+    #scheduling p {
+        font-size: large;
+    }
+    #main {
+        height: 80vh;
+        /* width: 100%; */
+        /* background-image: url("https://marketing-assets.calendly.com/media/experimentImages/hero-bkg-half-no-margin.png"); */
+        background-size:1000px;
+        /* background-color: aqua; */
+        margin: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background-color: aqua; */
+    
+    
+    }
+    #video {
+        height:500px;
+        width: 800px;
+        /* background-color: aqua; */
+        margin: auto;
+       
+    }
+}
+@media screen and (max-width:1100px){
+    #head{
+       /* width: 1000px; */
+       /* background-color: brown; */
+       display: flex;
+       flex-direction: row;
+       height: 5%;
+    }
+    #calendlyimage {
+        /* margin-top: 0; */
+        margin-left: 2%;
+    
+    }
+    #navbar {
+        /* margin-left: 8%; */
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        /* display: none; */
+    }
+    #navbar a {
+        margin-left: 20px;
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        padding-top: 1%;
+        font-size: 14px;
+    }
+    #head #login{
+        margin-left: 2%;
+    }
+    .sticky {
+        position: fixed;
+        top: 0;
+        /* width: 1000px; */
+        /* width: 100%; */
+        /* background-color: yellow; */
+    }
+    #scheduling h1 {
+        font-size: 1cm;
+        padding: 0;
+        margin: 0;
+        margin-top: 2%;
+    }
+    #scheduling p {
+        font-size: large;
+    }
+    #main {
+        height: 80vh;
+        /* width: 100%; */
+        /* background-image: url("https://marketing-assets.calendly.com/media/experimentImages/hero-bkg-half-no-margin.png"); */
+        background-size: 100%;
+        /* background-color: aqua; */
+        margin: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background-color: aqua; */
+    
+    
+    }
+}
+@media screen and (max-width:1000px){
+    #navbar{
+        display: none;
+    }
+    #ham{
+       display: contents;
+       /* font-size: larger; */
+    }
+    #ham .material-icons{
+        font-size: 40px;
+        margin-left: 5%;
+    }
+    #head #login{
+        margin-left: 30%;
+        font-size: larger;
+    }
+    #login button {
+        padding: 10px;
+        background-color: rgb(0, 107, 255);
+        border: 1px solid rgb(0, 107, 255);
+        color: white;
+        border-radius: 10px;
+        width: 160px;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    #scheduling h1 {
+        font-size: 1cm;
+        padding: 0;
+        margin: 0;
+        margin-top: 2%;
+    }
+    #scheduling p {
+        font-size: large;
+    }
+    #main {
+        height: 80vh;
+        /* width: 100%; */
+        /* background-image: url("https://marketing-assets.calendly.com/media/experimentImages/hero-bkg-half-no-margin.png"); */
+        background-size: 100%;
+        /* background-color: aqua; */
+        margin: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background: none;
+        /* background-color: aqua; */
+    
+    
+    }
+    #video {
+        height:400px;
+        width: 600px;
+        /* background-color: aqua; */
+        margin: auto;
+       
+    }
+}
+@media screen and (max-width:700px){
+    #head #login{
+        display: none;
+    }
+    #ham{
+        display: contents;
+        /* font-size: larger; */
+     }
+     #ham .material-icons{
+         font-size: 40px;
+         margin-left: 60%;
+         /* margin-right: 4%; */
+     }
+     #ham:hover{
+           cursor: pointer;
+     }
+   
+}
+@media screen and (max-width:500px){
+    #ham .material-icons{
+        font-size: 40px;
+        margin-left: 55%;
+        /* margin-right: 4%; */
+    }
+    #scheduling p {
+        font-size: 12px;
+        text-align: center;
+}
+#free #google {
+    width: 220px;
+    height: 80px;
+    background-color: rgb(0, 107, 255);
+    display: flex;
+    border-radius: 10px;
+    color: white;
+    padding-left: 5px;
+    text-align: center;
+    padding-right: 5px;
+    line-height: 25px;
+    /* margin-top: 1%; */
+
+}
+#free #google svg {
+    border: 1px solid grey;
+    /* padding: 10px; */
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 7px;
+    background-color: white;
+    margin-left: 0px;
+}
+#free #microsoft {
+    width: 220px;
+    height: 80px;
+    background-color: rgb(0, 107, 255);
+    display: flex;
+    border-radius: 10px;
+    color: white;
+    padding-left: 5px;
+    text-align: center;
+    padding-right: 5px;
+    line-height: 25px;
+    /* margin-top: 1%; */
+
+}
+#free #microsoft svg {
+    border: 1px solid grey;
+    /* padding: 10px; */
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 7px;
+    background-color: white;
+    margin-left: 0px;
+}
+#free{
+    margin-left: 5px;
+}
+#video {
+    height:100px;
+    width: 100px;
+    /* background-color: aqua; */
+    margin: auto;
+   
+}
+
+
+}
+
+
