@@ -1,3 +1,5 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); 
+
 *,
 ::before,
 ::after {
@@ -7,9 +9,9 @@
 
 body {
     /* width: 100vw; */
+    font-family: "Montserrat", sans-serif;
     display: flex;
     flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 #pricing {
@@ -28,9 +30,10 @@ body {
 .title {
     text-align: center;
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 650;
     color: rgb(11, 53, 88);
     margin-bottom: 2rem;
+    letter-spacing: 0.001rem;
 }
 
 .billing {
@@ -571,7 +574,7 @@ body {
 }
 
 .content-container h2 {
-    font-size: 3.125rem;
+    font-size: 2.8rem;
     line-height: 1.2;
     font-weight: 700;
     margin-bottom: 24px;
@@ -592,7 +595,9 @@ body {
     align-items: center;
     gap: 1rem;
     font-size: 1.2rem;
+    font-weight: 500;
 }
+
 .button-container a {
     text-decoration: none;
     color: white;
@@ -617,6 +622,14 @@ body {
 
 
 @media screen and (max-width: 1360px) {
+
+    .title {
+        text-align: center;
+        font-size: 45px;
+        margin-bottom: 1rem;
+        letter-spacing: 0.001rem;
+    }
+    
 
     #pricing-plan-components {
         margin-inline: 1.5rem;
@@ -643,6 +656,11 @@ body {
     .button-container {
         justify-content: flex-end;
     } 
+
+    .button-container {
+        font-size: 1rem;
+        font-weight: 500;
+    }
     
 }
 
@@ -701,6 +719,18 @@ body {
         padding: 1.6rem 0.5rem;
     }
     
+    .faq-header {
+        padding: 0 1rem;
+        font-size: 1.8rem;
+        line-height: 1.2;
+        text-align: left;
+        color: rgb(11, 53, 88);
+    }
+    
+    .button-container {
+        font-size: 1rem;
+        font-weight: 500;
+    }
     
     
     .booking-container {
@@ -718,7 +748,7 @@ body {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 980px) {
 
     .title {
         text-align: center;
@@ -764,6 +794,7 @@ body {
     
     .card .price-details .price {
         font-size: 1.2rem;
+        text-align: center;
     }
 
     .row .subtitle {
@@ -810,7 +841,7 @@ body {
     }
 
     .content-container h2 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         text-align: center;
     }
     
@@ -827,7 +858,7 @@ body {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 645px) {
 
     .pricing-table-wrapper .table-container:first-child {
         display: none;
