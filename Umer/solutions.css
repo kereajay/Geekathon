@@ -715,3 +715,30 @@ header {
   display: none;
   overflow: hidden;
 }
+
+@media screen and (max-width: 1200px) {
+  #head {
+    /* width: 1000px; */
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: row;
+    height: 5%;
+    /* width: 90%; */
+  }
+  #calendlyimage {
+    margin-left: 5%;
+  }
+  #navbar {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+  #navbar a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding-top: 1%;
+    font-size: 16px;
+  }
+}
