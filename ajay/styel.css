@@ -676,6 +676,7 @@ footer{
     margin: auto;
 }
 
+
 #logo1 #logo1a {
     border: 1px solid rgb(208, 208, 208);
     height: 110px;
@@ -823,14 +824,16 @@ footer{
 }
 
 #smarter {
-    width: 80%;
+    width: 50%;
     margin: auto;
     text-align: center;
     margin-top: 10%;
+    /* column-width: 50%; */
 }
 
 #smarter h1 {
     font-size: 1.3cm;
+    column-width: 50%;
 }
 
 #slaesnav {
@@ -1592,7 +1595,7 @@ margin-top: 25px;
         height:700px;
         width: 1200px;
         /* background-color: aqua; */
-        margin: auto;
+        /* margin: auto; */
     }
 }
 @media screen and (max-width:1300px){
@@ -1657,7 +1660,7 @@ margin-top: 25px;
     }
     #video {
         height:600px;
-        width: 1000px;
+        width: 900px;
         /* background-color: aqua; */
         margin: auto;
        
@@ -1725,7 +1728,7 @@ margin-top: 25px;
     }
     #video {
         height:500px;
-        width: 800px;
+        width: 700px;
         /* background-color: aqua; */
         margin: auto;
        
@@ -1926,15 +1929,195 @@ margin-top: 25px;
 #free{
     margin-left: 5px;
 }
-#video {
-    height:100px;
-    width: 100px;
+#nocredit{
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+#video video {
+    /* height:100px; */
+    width: 500px;
     /* background-color: aqua; */
     margin: auto;
+    margin-top: -35%;
+    padding-top: 0%;
    
 }
+#simplefied{
+    margin-top: -35%;
+    font-size: x-large;
+   
+
+}
+#smarter h1{
+    font-size: 1cm;
+    width: 100%;
+    margin-left: 0%;
+    padding-left: 0%;
+   
+}
+#salesnav{
+    width: 400px;
+    margin-left: 0%;
+    /* width: 200px; */
+   /* border-bottom: ; */
+    /* justify-content: space-evenly; */
+
+}
+#salesnav1 a{
+    font-size: 22px;
+    /* border-bottom: 3px solid rgb(0, 107, 255); */
+
+}
+#salesnav2 a{
+    /* font-size: 12px; */
+    font-size: 22px;
+
+    margin-left: 120px;
+    /* border-bottom: 3px solid rgb(224, 222, 222); */
+
+}
+#salesnav3 a{
+    display: none;
+}
+#salesnav4 a{
+    display: none;
+
+}
+#salesnav5 a{
+    display: none;
+
+}
+#salesnav6 a{
+    display: none;
+
+}
+#sales{
+    margin-bottom: 30%;
+}
+#abovelogo  {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100%;
+}
+#abovelogo  #sync h1 {
+font-size: 0.7cm;
+
+}
+#logo1{
+    display: flex;
+    flex-direction: column;
+   
+}
+#logo1 #logo1a {
+    width: 30%;
+    margin-top: 20px;
+}
+#logo1 #logo1b {
+    width: 30%;
+    margin-top: 20px;
+
+}
+#logo1 #logo1c {
+    width: 30%;
+    margin-top: 20px;
+
+}
+#logo2{
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+   
+}
+#logo2 #logo2a {
+    width: 30%;
+    margin-top: 20px;
+}
+#logo2 #logo2b {
+    width: 30%;
+    margin-top: 20px;
+
+}
+#logo2 #logo2c {
+    width: 30%;
+    margin-top: 20px;
+
+}
+#logo2 #logo2d {
+    width: 30%;
+    margin-top: 20px;
+
+}
+#video2 video {
+    width: 450px;
+    padding-bottom:0% ;
+}
+#company{
+    margin-top: -70%;
+}
+#cimage{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+#cimage #cimage1{
+    margin-top: 20px;
+}
+#cimage #cimage2{
+    margin-top: 20px;
+}
+#cimage #cimage3{
+    margin-top: 20px;
+}
+#cimage #cimage4{
+    margin-top: 20px;
+}
+#cimage #cimage5{
+    margin-top: 20px;
+}
+#footer4 {
+    display: flex;
+    flex-direction: column;
+    /* float: left; */
+}
+#footer4 #footer4b a{
+    font-size: small;
+}
+#footer4 #footer4b #f4b1 img{
+    width: 40px;
+}
+#footer4 #footer4c{
+    margin-left: -50%;
+}
+#Ef{
+display: flex;
+flex-direction: column;
+}
+#Ef #easy {
+    width: 90%;
+}
+#Ef #featured {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#Ef #featured  #fe2 {
+   text-align: left;
+   border:none;
+   margin-left: 0%;
+   margin-top: 0%;
+   color: rgb(0, 107, 255);
 
 
 }
-
-
+#Ef #featured  #fe2 a:hover{
+    color: black;
+}
+#Ef #featured  #fe2:hover .material-icons{
+transform: translateX(10px);
+color: black;
+}
+#isi{
+    display: flex;
+    flex-direction: column;
+}
+}
