@@ -72,6 +72,9 @@ header {
     border-bottom: 1px solid rgb(225, 225, 225);
 
 }
+#ham{
+    display: none;
+}
 
 #navbar {
     margin-left: 8%;
