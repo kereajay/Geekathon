@@ -58,6 +58,9 @@ header {
   border-bottom: 1px solid rgb(225, 225, 225);
 }
 
+#head #ham {
+  content-visibility: hidden;
+}
 .sticky {
   position: fixed;
   top: 0;
@@ -717,28 +720,213 @@ header {
 }
 
 @media screen and (max-width: 1200px) {
-  #head {
-    /* width: 1000px; */
-    /* background-color: brown; */
-    display: flex;
-    flex-direction: row;
-    height: 5%;
-    /* width: 90%; */
+  body {
+    width: 90%;
   }
-  #calendlyimage {
-    margin-left: 5%;
+
+  #head > #calendlyimage {
+    margin-left: 20px;
   }
   #navbar {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
+    padding: 5px;
+    margin-left: 15px;
   }
-  #navbar a {
+  #login {
+    margin-left: 15px;
+  }
+
+  .leftside {
     margin-left: 20px;
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-    padding-top: 1%;
-    font-size: 16px;
+  }
+
+  .rightside {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    /* width: 80%; */
+  }
+
+  #navbar > a {
+    margin-left: 10px;
+  }
+  .leftside {
+    margin-left: 10px;
+  }
+
+  .rightside {
+    margin-left: 200px;
+  }
+
+  .chris_williams > .leftyy > p {
+    font-size: 25px;
+  }
+
+  .chris_williams > .rightyyy > img {
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 400px;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    /* width: 100%; */
+  }
+
+  #english {
+  }
+
+  #head #login {
+    display: none;
+  }
+
+  #navbar {
+    display: none;
+  }
+  #ham {
+    display: contents;
+    /* font-size: larger; */
+  }
+  #ham .material-icons {
+    font-size: 40px;
+    margin-left: 60%;
+    /* margin-right: 4%; */
+  }
+  #ham:hover {
+    cursor: pointer;
+  }
+  .solutions {
+    text-align: center;
+    margin-left: 50px;
+  }
+
+  .hdd > h1 {
+    font-size: 30px;
+  }
+
+  .pp {
+    width: 100%;
+  }
+
+  #p4 {
+    font-size: 30px;
+  }
+
+  .soln_for_every_role {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .right > img {
+    /* height: 300px;
+    width: 400px; */
+    margin-left: 100px;
+  }
+
+  .solns_by_ind {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .solns_by_ind > .rightside {
+    width: 100%;
+    margin-left: 50px;
+  }
+
+  .chris_williams {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .chris_williams > .leftyy {
+    width: 100%;
+    margin-left: 50px;
+  }
+
+  .chris_williams > .rightyyy > img {
+    height: 500px;
+    width: 600px;
+  }
+
+  .scheduling {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-left: 70px;
+  }
+
+  .lside > h1 {
+    font-size: 18px;
+    /* text-align: center; */
+  }
+
+  .lside > p {
+    font: 15px;
+    width: 100%;
+  }
+
+  .rside {
+    margin-top: 20px;
+  }
+  .rside > #sign {
+    font-size: 15px;
+    padding: 10px;
+    /* width: 350px; */
+  }
+
+  .rside > #demo {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    width: 100%;
+  }
+  #ham .material-icons {
+    font-size: 40px;
+    margin-left: 55%;
+    /* margin-right: 4%; */
+  }
+  .solutions {
+    /* text-align: center; */
+    margin-left: 70px;
+    width: 100%;
+  }
+
+  .hdd > h1 {
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left {
+    margin-left: 70px;
+  }
+
+  .right > img {
+    /* height: 300px;
+    width: 400px; */
+    margin-left: 70px;
+  }
+
+  .ind_headings > h2 {
+    margin-left: 100px;
+  }
+
+  .ind_headings > h1 {
+    font-size: 1.75rem;
+    margin-left: 100px;
   }
 }
