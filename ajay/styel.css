@@ -55,7 +55,7 @@ header {
     background-color: white;
     height: 5%;
     border-bottom: 1px solid rgb(225, 225, 225);
-overflow: hidden;
+    overflow: hidden;
 }
 
 .sticky {
@@ -109,13 +109,15 @@ overflow: hidden;
     font-size: 15px;
     margin-left: 20px;
 }
-#head #ham{
-    content-visibility:hidden;
+
+#head #ham {
+    content-visibility: hidden;
 }
 
-footer{
+footer {
     margin-top: 5%;
 }
+
 #Ef {
     width: 80%;
 
@@ -986,6 +988,8 @@ footer{
 #see p {
     font-size: large;
     line-height: 25px;
+    width: 700px;
+    margin-left: 20%;
 }
 
 #video2 {
@@ -1062,7 +1066,7 @@ footer{
 
 }
 
- #stories a {
+#stories a {
     text-decoration: none;
     color: rgb(0, 107, 255);
     /* font-size: larger; */
@@ -1294,9 +1298,11 @@ footer{
     /* padding-top: 10%; */
     margin-top: 6%;
 }
-#iso:hover{
+
+#iso:hover {
     cursor: pointer;
 }
+
 #iso span {
     background-color: rgb(0, 107, 255);
     border-radius: 20px;
@@ -1329,7 +1335,7 @@ footer{
     display: flex;
     flex-direction: row;
     /* width: 80%; */
-/* margin: auto;
+    /* margin: auto;
     text-align: center; */
     /* padding-left: 400px; */
     margin-left: 25%;
@@ -1395,56 +1401,63 @@ footer{
     width: 80%;
     /* height: 400px; */
     margin: auto;
-    background-color:rgb(10, 37, 64);
+    background-color: rgb(10, 37, 64);
     border-radius: 32px;
     text-align: center;
-color: white;
-padding-bottom: 5%;
-margin-top: 6%;
+    color: white;
+    padding-bottom: 5%;
+    margin-top: 6%;
 
 }
-#power h1{
-font-size: 1.2cm;
-color: white;
-padding-top: 6%;
+
+#power h1 {
+    font-size: 1.2cm;
+    color: white;
+    padding-top: 6%;
 }
-#power p{
+
+#power p {
     font-size: larger;
     /* letter-spacing: 1px; */
 }
-#talk{
+
+#talk {
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
 }
-#power #talk #signup #button1{
+
+#power #talk #signup #button1 {
     padding: 15px;
     width: 160px;
     font-size: 16px;
-    font-weight:600;
+    font-weight: 600;
     background-color: rgb(0, 107, 255);
-color: white;
+    color: white;
     border-radius: 10px;
-    border: 1px solid rgb(0, 107, 255) ;
+    border: 1px solid rgb(0, 107, 255);
 }
-#power #talk #signup #button1:hover{
+
+#power #talk #signup #button1:hover {
     background-color: rgb(31, 87, 165);
 
 }
-#power #talk #talksale #button2{
+
+#power #talk #talksale #button2 {
     padding: 15px;
     width: 140px;
-    background-color:rgb(10, 37, 64);
-border: 1px solid white;
-color: white;
-border-radius: 10px;
-font-size: 16px;
-font-weight:600;
-margin-left: 20px;
-margin-top: 25px;
+    background-color: rgb(10, 37, 64);
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 25px;
 
 }
+
 #together {
     background-color: rgb(12, 58, 103);
     /* text-align: center; */
@@ -1453,6 +1466,7 @@ margin-top: 25px;
     flex-flow: column nowrap;
     height: 90vh;
 }
+
 #together::-webkit-scrollbar {
     display: none;
 }
@@ -1536,14 +1550,15 @@ margin-top: 25px;
     width: 90%;
 }
 
-@media screen and (max-width:1400px){
-    #head{
-       /* width: 1000px; */
-       /* background-color: brown; */
-       display: flex;
-       flex-direction: row;
-       height: 5%;
+@media screen and (max-width:1400px) {
+    #head {
+        /* width: 1000px; */
+        /* background-color: brown; */
+        display: flex;
+        flex-direction: row;
+        height: 5%;
     }
+
     #navbar {
         /* margin-left: 8%; */
         display: flex;
@@ -1551,6 +1566,7 @@ margin-top: 25px;
         text-align: center;
         /* display: none; */
     }
+
     #navbar a {
         margin-left: 40px;
         text-decoration: none;
@@ -1559,9 +1575,11 @@ margin-top: 25px;
         padding-top: 1%;
         font-size: 16px;
     }
-    #head #login{
+
+    #head #login {
         margin-left: 10%;
     }
+
     .sticky {
         position: fixed;
         top: 0;
@@ -1569,15 +1587,18 @@ margin-top: 25px;
         /* width: 100%; */
         /* background-color: yellow; */
     }
+
     #scheduling h1 {
         font-size: 1.8cm;
         padding: 0;
         margin: 0;
         margin-top: 2%;
     }
+
     #scheduling p {
         font-size: larger;
     }
+
     #main {
         height: 80vh;
         /* width: 100%; */
@@ -1588,29 +1609,49 @@ margin-top: 25px;
         background-position: center;
         background-repeat: no-repeat;
         /* background-color: aqua; */
-    
-    
+
+
     }
-    #video {
-        height:700px;
-        width: 1200px;
+
+    #video video {
+        /* height:700px; */
+        width: 1300px;
         /* background-color: aqua; */
         /* margin: auto; */
     }
-}
-@media screen and (max-width:1300px){
-    #head{
-       /* width: 1000px; */
-       /* background-color: brown; */
-       display: flex;
-       flex-direction: row;
-       height: 5%;
+
+    #smarter {
+        width: 55%;
     }
+
+    #slaesnav {
+        width: 63%;
+    }
+
+    #video2 video {
+        width: 1200px;
+    }
+
+    #company #percentage #percentage1 {
+        margin-right: 9%;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    #head {
+        /* width: 1000px; */
+        /* background-color: brown; */
+        display: flex;
+        flex-direction: row;
+        height: 5%;
+    }
+
     #calendlyimage {
         /* margin-top: 0; */
         margin-left: 8%;
-    
+
     }
+
     #navbar {
         /* margin-left: 8%; */
         display: flex;
@@ -1618,6 +1659,7 @@ margin-top: 25px;
         text-align: center;
         /* display: none; */
     }
+
     #navbar a {
         margin-left: 30px;
         text-decoration: none;
@@ -1626,9 +1668,11 @@ margin-top: 25px;
         padding-top: 1%;
         font-size: 16px;
     }
-    #head #login{
+
+    #head #login {
         margin-left: 5%;
     }
+
     .sticky {
         position: fixed;
         top: 0;
@@ -1636,15 +1680,18 @@ margin-top: 25px;
         /* width: 100%; */
         /* background-color: yellow; */
     }
+
     #scheduling h1 {
         font-size: 1.5cm;
         padding: 0;
         margin: 0;
         margin-top: 2%;
     }
+
     #scheduling p {
         font-size: larger;
     }
+
     #main {
         height: 80vh;
         /* width: 100%; */
@@ -1655,30 +1702,172 @@ margin-top: 25px;
         background-position: center;
         background-repeat: no-repeat;
         /* background-color: aqua; */
-    
-    
+
+
     }
-    #video {
-        height:600px;
-        width: 900px;
+
+    #video video {
+        /* height:700px; */
+        width: 1000px;
         /* background-color: aqua; */
+        /* margin: auto; */
+    }
+
+   
+
+    #smarter {
+        width: 60%;
+    }
+
+    #slaesnav {
+        width: 70%;
+    }
+
+    #video2 video {
+        width: 1100px;
+        margin-left: 0%;
+    }
+
+    #video2 {
+        width: 100%;
         margin: auto;
-       
     }
+
+    #company #percentage #percentage1 {
+        margin-right: 9%;
+    }
+
+    #simplefied {
+        margin-top: 0%;
+    }
+
+    #abovelogo #sync {
+        width: 80%;
+    }
+
+    #logo2 {
+        display: flex;
+        flex-direction: row;
+        /* background-color: aqua; */
+        width: 90%;
+        height: 200px;
+        margin: auto;
+        margin-top: -5%;
+    }
+
+    #logo1 {
+        display: flex;
+        flex-direction: row;
+        /* background-color: aqua; */
+        width: 90%;
+        height: 200px;
+        margin: auto;
+        margin-bottom: 0%;
+    }
+    #sales {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* grid-template-rows: 200px; */
+        width: 80%;
+        margin: auto;
+    
+    }
+    #together #Meeting {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 600px;
+        width: 80%;
+        margin: auto;
+    }
+    
+    #together #team {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 800px;
+        width: 80%;
+        margin: auto;
+    }
+    
+    #together #number {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 800px;
+        width: 80%;
+        margin: auto;
+    }
+    #company #percentage {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 80%;
+        margin: auto;
+        color: rgb(5, 51, 51);
+        margin-top: 5%;
+    
+    
+    }
+    #company #percentage #percentage1 {
+        /* margin-left: 10%; */
+        width: 80%;
+    }
+  
+   #Ef{
+    width: 90%;
+   }
+    #Ef #featured{
+        width:65% ;
+    }
+    #Ef #featured #fe2 {
+        text-align: center;
+        /* margin-top: 60px; */
+        /* margin-left: 40px; */
+        display: flex;
+        flex-direction: row;
+        border: 1px solid grey;
+        height: 50px;
+        width: 170px;
+        border-radius: 10px;
+    }
+    
+    #Ef #featured #fe2 .material-icons {
+        /* font-size:25px; */
+        margin-top: 13px;
+        margin-left: 10px;
+    }
+    
+    #Ef #featured #fe2 p {
+        margin-left: 15px;
+    }
+    footer #footer2{
+        width: 90%;
+    }
+    footer #footer3{
+        width: 90%;
+    }
+    #footer4{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+       }
+       #footer4 #footer4c{
+       margin-left: -80%;
+       }
 }
-@media screen and (max-width:1200px){
-    #head{
-       /* width: 1000px; */
-       /* background-color: brown; */
-       display: flex;
-       flex-direction: row;
-       height: 5%;
+
+@media screen and (max-width:1200px) {
+    #head {
+        /* width: 1000px; */
+        /* background-color: brown; */
+        display: flex;
+        flex-direction: row;
+        height: 5%;
     }
+
     #calendlyimage {
         /* margin-top: 0; */
         margin-left: 5%;
-    
+
     }
+
     #navbar {
         /* margin-left: 8%; */
         display: flex;
@@ -1686,6 +1875,7 @@ margin-top: 25px;
         text-align: center;
         /* display: none; */
     }
+
     #navbar a {
         margin-left: 20px;
         text-decoration: none;
@@ -1694,9 +1884,11 @@ margin-top: 25px;
         padding-top: 1%;
         font-size: 16px;
     }
-    #head #login{
+
+    #head #login {
         /* margin-left: 5%; */
     }
+
     .sticky {
         position: fixed;
         top: 0;
@@ -1704,49 +1896,116 @@ margin-top: 25px;
         /* width: 100%; */
         /* background-color: yellow; */
     }
+
     #scheduling h1 {
         font-size: 1.2cm;
         padding: 0;
         margin: 0;
         margin-top: 2%;
     }
+
     #scheduling p {
         font-size: large;
     }
+
     #main {
         height: 80vh;
         /* width: 100%; */
         /* background-image: url("https://marketing-assets.calendly.com/media/experimentImages/hero-bkg-half-no-margin.png"); */
-        background-size:1000px;
+        background-size: 1000px;
         /* background-color: aqua; */
         margin: auto;
         background-position: center;
         background-repeat: no-repeat;
         /* background-color: aqua; */
-    
-    
+
+
     }
-    #video {
-        height:500px;
-        width: 700px;
+
+    #video video {
+        height: 950px;
+        width: 950px;
         /* background-color: aqua; */
-        margin: auto;
+        /* margin: auto; */
+
+    }
+    #video{
+        margin-top: -20%;
+    }
+    #simplefied p {
        
+        margin-top: 15%;
     }
+    #smarter {
+        width: 65%;
+    }
+    #slaesnav {
+        width: 75%;
+    }
+    #sales {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* grid-template-rows: 200px; */
+        width: 90%;
+        margin: auto;
+    
+    }
+    #logo2 {
+        display: flex;
+        flex-direction: row;
+        /* background-color: aqua; */
+        width: 90%;
+        height: 200px;
+        margin: auto;
+        margin-top: -5%;
+    }
+
+    #logo1 {
+        display: flex;
+        flex-direction: row;
+        /* background-color: aqua; */
+        width: 90%;
+        height: 200px;
+        margin: auto;
+        margin-bottom: 0%;
+    }
+    #logo2 #logo2d img {
+
+        padding: 10px;
+    
+        width: 90px;
+        /* box-shadow: 1px 1px 1px #aaaaaa; */
+        /* box-shadow: 0px 04px 4px  blue; */
+    }
+    
+    #video2 video {
+        width: 800px;
+        margin-left: 0%;
+    }
+    #company{
+        margin-top: -15%;
+    }
+    #company #story a{
+      font-size: 15px;
+    }
+
 }
-@media screen and (max-width:1100px){
-    #head{
-       /* width: 1000px; */
-       /* background-color: brown; */
-       display: flex;
-       flex-direction: row;
-       height: 5%;
+
+@media screen and (max-width:1100px) {
+    #head {
+        /* width: 1000px; */
+        /* background-color: brown; */
+        display: flex;
+        flex-direction: row;
+        height: 5%;
     }
+
     #calendlyimage {
         /* margin-top: 0; */
         margin-left: 2%;
-    
+
     }
+
     #navbar {
         /* margin-left: 8%; */
         display: flex;
@@ -1754,6 +2013,7 @@ margin-top: 25px;
         text-align: center;
         /* display: none; */
     }
+
     #navbar a {
         margin-left: 20px;
         text-decoration: none;
@@ -1762,9 +2022,11 @@ margin-top: 25px;
         padding-top: 1%;
         font-size: 14px;
     }
-    #head #login{
+
+    #head #login {
         margin-left: 2%;
     }
+
     .sticky {
         position: fixed;
         top: 0;
@@ -1772,15 +2034,18 @@ margin-top: 25px;
         /* width: 100%; */
         /* background-color: yellow; */
     }
+
     #scheduling h1 {
         font-size: 1cm;
         padding: 0;
         margin: 0;
         margin-top: 2%;
     }
+
     #scheduling p {
         font-size: large;
     }
+
     #main {
         height: 80vh;
         /* width: 100%; */
@@ -1791,26 +2056,67 @@ margin-top: 25px;
         background-position: center;
         background-repeat: no-repeat;
         /* background-color: aqua; */
-    
-    
+
+
+    }
+
+    #video video {
+        height: 850px;
+        width: 850px;
+    }
+   
+    #company #story a{
+        font-size: 13px;
+      }
+      #isi{
+        width: 70%;
+        /* margin-left: 0%; */
+        margin: auto;
+      }
+      #logo2 {
+        display: flex;
+        flex-direction: row;
+        /* background-color: aqua; */
+        width: 95%;
+        height: 200px;
+        margin: auto;
+        margin-top: -5%;
+    }
+
+    #logo1 {
+        display: flex;
+        flex-direction: row;
+        /* background-color: aqua; */
+        width: 95%;
+        height: 200px;
+        margin: auto;
+        margin-bottom: 0%;
+    }
+    #Ef #featured{
+        width:75% ;
     }
 }
-@media screen and (max-width:1000px){
-    #navbar{
+
+@media screen and (max-width:1000px) {
+    #navbar {
         display: none;
     }
-    #ham{
-       display: contents;
-       /* font-size: larger; */
+
+    #ham {
+        display: contents;
+        /* font-size: larger; */
     }
-    #ham .material-icons{
+
+    #ham .material-icons {
         font-size: 40px;
         margin-left: 5%;
     }
-    #head #login{
+
+    #head #login {
         margin-left: 30%;
         font-size: larger;
     }
+
     #login button {
         padding: 10px;
         background-color: rgb(0, 107, 255);
@@ -1821,15 +2127,18 @@ margin-top: 25px;
         font-size: 20px;
         margin-left: 20px;
     }
+
     #scheduling h1 {
         font-size: 1cm;
         padding: 0;
         margin: 0;
         margin-top: 2%;
     }
+
     #scheduling p {
         font-size: large;
     }
+
     #main {
         height: 80vh;
         /* width: 100%; */
@@ -1841,283 +2150,594 @@ margin-top: 25px;
         background-repeat: no-repeat;
         background: none;
         /* background-color: aqua; */
-    
-    
+
+
     }
+
     #video {
-        height:400px;
+        height: 400px;
         width: 600px;
         /* background-color: aqua; */
         margin: auto;
-       
+
+    }
+
+
+    #video video {
+        height: 750px;
+        width: 750px;
+        margin-top: -50%;
+        margin-left: -10%;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+    #simplefied p {
+      /* color: red; */
+        margin-top: 0%;
+    }
+    #smarter {
+        width: 80%;
+    }
+    #slaesnav {
+        width: 90%;
+    }
+    #sales {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* grid-template-rows: 200px; */
+        width: 90%;
+        margin: auto;
+    
+    }
+    #abovelogo{
+        margin-top: 40%;
+        width: 90%;
+    }
+    #logo2 {
+        display: flex;
+        flex-direction: row;
+        /* background-color: aqua; */
+        width: 100%;
+        height: 200px;
+        margin: auto;
+        margin-top: -5%;
+    }
+
+    #logo1 {
+        display: flex;
+        flex-direction: row;
+        /* background-color: aqua; */
+        width: 100%;
+        height: 200px;
+        margin: auto;
+        margin-bottom: 0%;
+    }
+    #video2 video{
+        width: 650px;
+    }
+    #company {
+        width: 95%;
+        margin: auto;
+        margin-top: -30%;
+    }
+    #company #percentage #percentage1 {
+        /* margin-left: 10%; */
+        width: 90%;
+    }
+    #isi{
+        width: 78%;
+        /* margin-left: 0%; */
+        margin: auto;
+      }
+      #Ef #featured{
+        width:100% ;
     }
 }
-@media screen and (max-width:700px){
-    #head #login{
+
+@media screen and (max-width:700px) {
+    #head #login {
         display: none;
     }
-    #ham{
+
+    #ham {
         display: contents;
         /* font-size: larger; */
-     }
-     #ham .material-icons{
-         font-size: 40px;
-         margin-left: 60%;
-         /* margin-right: 4%; */
-     }
-     #ham:hover{
-           cursor: pointer;
-     }
-   
+    }
+
+    #ham .material-icons {
+        font-size: 40px;
+        margin-left: 60%;
+        /* margin-right: 4%; */
+    }
+
+    #ham:hover {
+        cursor: pointer;
+    }
+
+    #video video {
+        height: 650px;
+        width: 650px;
+        /* margin-top: -50%; */
+        margin-left: -2%;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+    #simplefied p {
+        /* color: red; */
+          margin-top: -10%;
+          font-size: 23px;
+          padding-top: 0%;
+      }
+      #smarter{
+        width: 90%;
+      }
+      #smarter h1{
+        font-size: 1cm;
+      }
+      #slaesnav{
+        width: 100%;
+        margin-left: 10%;
+      }
+      #sales{
+        display: flex;
+        flex-direction: column;
+      }
+      #abovelogo{
+        margin-top:5% ;
+        display: flex;
+        flex-direction: column;
+      }
+      #logo1{
+        display: flex;
+        flex-direction: column;
+        margin-bottom:21% ;
+      }
+      #logo1 #logo1a{
+        width: 20%;
+        margin-bottom: 10px;
+      }
+      #logo1 #logo1b{
+        width: 20%;
+        margin-bottom: 10px;
+
+      }
+      #logo1 #logo1c{
+        width: 20%;
+        margin-bottom: 10px;
+
+      }
+      #logo2{
+        display: flex;
+        flex-direction: column;
+        margin-bottom:40% ;
+        margin-top: 100%;
+        height: 100vh;
+      }
+      #logo2 #logo2a{
+        width: 20%;
+        margin-bottom: 10px;
+      }
+      #logo2 #logo2b{
+        width: 20%;
+        margin-bottom: 10px;
+
+      }
+      #logo2 #logo2c{
+        width: 20%;
+        margin-bottom: 10px;
+
+      }
+      #logo2 #logo2d{
+        width: 20%;
+        margin-bottom: 10px;
+
+      }
+      #together h1{
+        font-size: 1cm;
+      }
+      #together #Meeting{
+        display: flex;
+        flex-direction: column;
+      }
+      #see{
+        text-align: center;
+        width: 50%;
+      }
+      #see h1{
+        font-size: 0.8cm;
+      }
+      #see p{
+        font-size: 15px;width: 350px;
+      }
+      #see #for{
+        margin-bottom: 5%;
+      }
+      #video2 video{
+        width: 600px;
+        margin-bottom: 0%;
+        
+      }
+      #video2{
+        margin-bottom: 0%;
+      }
+      #company #dc{
+        display: flex;
+        flex-direction: column;
+      }
+      #company #cimage{
+        display: flex;
+        flex-direction: column;
+      }
+      #company #cimage #cimage1{
+        margin-bottom: 20px;
+
+      }
+      #company #cimage #cimage2{
+        margin-bottom: 20px;
+
+      }
+      #company #cimage #cimage3{
+        margin-bottom: 20px;
+
+      }
+      #company #cimage #cimage4{
+        margin-bottom: 20px;
+
+      }
+      #company #cimage #cimage5{
+        margin-bottom: 20px;
+
+      }
+      #company #percentage{
+        display: flex;
+        flex-direction: column;
+      }
+      #organization h1{
+        font-size: 1cm;
+      }
+      #isi #isiimg img{
+           width: 80px;
+           
+      }
+      #isi {
+        width: 90%;
+      }
+      #keep p{
+        font-size: 15px;
+      }
+      #power #talksale{
+        margin-top: -2.5%;
+      }
+      #Ef{
+        display: flex;
+        flex-direction: column;
+      }
+      #footer2 #footer2b {
+       margin-left: 20px;
+      }
+      #footer4 #footer4c{
+        margin-left: -70%;
+      }
+
 }
-@media screen and (max-width:500px){
-    #ham .material-icons{
+
+@media screen and (max-width:500px) {
+    #ham .material-icons {
         font-size: 40px;
         margin-left: 55%;
         /* margin-right: 4%; */
     }
+
     #scheduling p {
         font-size: 12px;
         text-align: center;
-}
-#free #google {
-    width: 220px;
-    height: 80px;
-    background-color: rgb(0, 107, 255);
-    display: flex;
-    border-radius: 10px;
-    color: white;
-    padding-left: 5px;
-    text-align: center;
-    padding-right: 5px;
-    line-height: 25px;
-    /* margin-top: 1%; */
+    }
 
-}
-#free #google svg {
-    border: 1px solid grey;
-    /* padding: 10px; */
-    border-radius: 5px;
-    margin-top: 20px;
-    margin-bottom: 7px;
-    background-color: white;
-    margin-left: 0px;
-}
-#free #microsoft {
-    width: 220px;
-    height: 80px;
-    background-color: rgb(0, 107, 255);
-    display: flex;
-    border-radius: 10px;
-    color: white;
-    padding-left: 5px;
-    text-align: center;
-    padding-right: 5px;
-    line-height: 25px;
-    /* margin-top: 1%; */
+    #free #google {
+        width: 220px;
+        height: 80px;
+        background-color: rgb(0, 107, 255);
+        display: flex;
+        border-radius: 10px;
+        color: white;
+        padding-left: 5px;
+        text-align: center;
+        padding-right: 5px;
+        line-height: 25px;
+        /* margin-top: 1%; */
 
-}
-#free #microsoft svg {
-    border: 1px solid grey;
-    /* padding: 10px; */
-    border-radius: 5px;
-    margin-top: 20px;
-    margin-bottom: 7px;
-    background-color: white;
-    margin-left: 0px;
-}
-#free{
-    margin-left: 5px;
-}
-#nocredit{
-    margin-bottom: 0%;
-    padding-bottom: 0%;
-}
-#video video {
-    /* height:100px; */
-    width: 500px;
-    /* background-color: aqua; */
-    margin: auto;
-    margin-top: -35%;
-    padding-top: 0%;
-   
-}
-#simplefied{
-    margin-top: -35%;
-    font-size: x-large;
-   
+    }
 
-}
-#smarter h1{
-    font-size: 1cm;
-    width: 100%;
-    margin-left: 0%;
-    padding-left: 0%;
-   
-}
-#salesnav{
-    width: 400px;
-    margin-left: 0%;
-    /* width: 200px; */
-   /* border-bottom: ; */
-    /* justify-content: space-evenly; */
+    #free #google svg {
+        border: 1px solid grey;
+        /* padding: 10px; */
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-bottom: 7px;
+        background-color: white;
+        margin-left: 0px;
+    }
 
-}
-#salesnav1 a{
-    font-size: 22px;
-    /* border-bottom: 3px solid rgb(0, 107, 255); */
+    #free #microsoft {
+        width: 220px;
+        height: 80px;
+        background-color: rgb(0, 107, 255);
+        display: flex;
+        border-radius: 10px;
+        color: white;
+        padding-left: 5px;
+        text-align: center;
+        padding-right: 5px;
+        line-height: 25px;
+        /* margin-top: 1%; */
 
-}
-#salesnav2 a{
-    /* font-size: 12px; */
-    font-size: 22px;
+    }
 
-    margin-left: 120px;
-    /* border-bottom: 3px solid rgb(224, 222, 222); */
+    #free #microsoft svg {
+        border: 1px solid grey;
+        /* padding: 10px; */
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-bottom: 7px;
+        background-color: white;
+        margin-left: 0px;
+    }
 
-}
-#salesnav3 a{
-    display: none;
-}
-#salesnav4 a{
-    display: none;
+    #free {
+        margin-left: 5px;
+    }
 
-}
-#salesnav5 a{
-    display: none;
+    #nocredit {
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
 
-}
-#salesnav6 a{
-    display: none;
+    #video video {
+        /* height:100px; */
+        width: 500px;
+        /* background-color: aqua; */
+        margin: auto;
+        margin-top: -65%;
+        padding-top: 0%;
 
-}
-#sales{
-    margin-bottom: 30%;
-}
-#abovelogo  {
-    display: flex;
-    flex-direction: column;
-    margin-top: 100%;
-}
-#abovelogo  #sync h1 {
-font-size: 0.7cm;
+    }
 
-}
-#logo1{
-    display: flex;
-    flex-direction: column;
-   
-}
-#logo1 #logo1a {
-    width: 30%;
-    margin-top: 20px;
-}
-#logo1 #logo1b {
-    width: 30%;
-    margin-top: 20px;
-
-}
-#logo1 #logo1c {
-    width: 30%;
-    margin-top: 20px;
-
-}
-#logo2{
-    display: flex;
-    flex-direction: column;
-    height: 150vh;
-   
-}
-#logo2 #logo2a {
-    width: 30%;
-    margin-top: 20px;
-}
-#logo2 #logo2b {
-    width: 30%;
-    margin-top: 20px;
-
-}
-#logo2 #logo2c {
-    width: 30%;
-    margin-top: 20px;
-
-}
-#logo2 #logo2d {
-    width: 30%;
-    margin-top: 20px;
-
-}
-#video2 video {
-    width: 450px;
-    padding-bottom:0% ;
-}
-#company{
-    margin-top: -70%;
-}
-#cimage{
-    display: flex;
-    flex-direction: column;
-    /* justify-content: space-around; */
-}
-#cimage #cimage1{
-    margin-top: 20px;
-}
-#cimage #cimage2{
-    margin-top: 20px;
-}
-#cimage #cimage3{
-    margin-top: 20px;
-}
-#cimage #cimage4{
-    margin-top: 20px;
-}
-#cimage #cimage5{
-    margin-top: 20px;
-}
-#footer4 {
-    display: flex;
-    flex-direction: column;
-    /* float: left; */
-}
-#footer4 #footer4b a{
-    font-size: small;
-}
-#footer4 #footer4b #f4b1 img{
-    width: 40px;
-}
-#footer4 #footer4c{
-    margin-left: -50%;
-}
-#Ef{
-display: flex;
-flex-direction: column;
-}
-#Ef #easy {
-    width: 90%;
-}
-#Ef #featured {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-#Ef #featured  #fe2 {
-   text-align: left;
-   border:none;
-   margin-left: 0%;
-   margin-top: 0%;
-   color: rgb(0, 107, 255);
+    #simplefied {
+        margin-top: -55%;
+       
+     
 
 
-}
-#Ef #featured  #fe2 a:hover{
-    color: black;
-}
-#Ef #featured  #fe2:hover .material-icons{
-transform: translateX(10px);
-color: black;
-}
-#isi{
-    display: flex;
-    flex-direction: column;
-}
+    }
+    #simplefied p{
+        font-size: 17px;
+    }
+
+    #smarter h1 {
+        font-size: 1cm;
+        width: 100%;
+        margin-left: 0%;
+        padding-left: 0%;
+
+    }
+
+    #salesnav {
+        width: 400px;
+        margin-left: 0%;
+        /* width: 200px; */
+        /* border-bottom: ; */
+        /* justify-content: space-evenly; */
+
+    }
+
+    #salesnav1 a {
+        font-size: 22px;
+        /* border-bottom: 3px solid rgb(0, 107, 255); */
+
+    }
+
+    #salesnav2 a {
+        /* font-size: 12px; */
+        font-size: 22px;
+
+        margin-left: 120px;
+        /* border-bottom: 3px solid rgb(224, 222, 222); */
+
+    }
+
+    #salesnav3 a {
+        display: none;
+    }
+
+    #salesnav4 a {
+        display: none;
+
+    }
+
+    #salesnav5 a {
+        display: none;
+
+    }
+
+    #salesnav6 a {
+        display: none;
+
+    }
+
+    #sales {
+        margin-bottom: 0%;
+    }
+
+    #abovelogo {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+
+    #abovelogo #sync h1 {
+        font-size: 0.7cm;
+
+    }
+
+    #logo1 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 38%;
+        height: 100vh;
+
+    }
+
+    #logo1 #logo1a {
+        width: 30%;
+        margin-top: 20px;
+    }
+
+    #logo1 #logo1b {
+        width: 30%;
+        margin-top: 20px;
+
+    }
+
+    #logo1 #logo1c {
+        width: 30%;
+        margin-top: 20px;
+
+    }
+
+    #logo2 {
+        display: flex;
+        flex-direction: column;
+        height: 150vh;
+        margin-top: 50%;
+
+    }
+
+    #logo2 #logo2a {
+        width: 30%;
+        margin-top: 20px;
+    }
+
+    #logo2 #logo2b {
+        width: 30%;
+        margin-top: 20px;
+
+    }
+
+    #logo2 #logo2c {
+        width: 30%;
+        margin-top: 20px;
+
+    }
+
+    #logo2 #logo2d {
+        width: 30%;
+        margin-top: 20px;
+
+    }
+
+    #video2 video {
+        width: 450px;
+        padding-bottom: 0%;
+    }
+
+    #company {
+        margin-top: -70%;
+    }
+
+    #cimage {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+    }
+
+    #cimage #cimage1 {
+        margin-top: 20px;
+    }
+
+    #cimage #cimage2 {
+        margin-top: 20px;
+    }
+
+    #cimage #cimage3 {
+        margin-top: 20px;
+    }
+
+    #cimage #cimage4 {
+        margin-top: 20px;
+    }
+
+    #cimage #cimage5 {
+        margin-top: 20px;
+    }
+
+    #footer4 {
+        display: flex;
+        flex-direction: column;
+        /* float: left; */
+    }
+
+    #footer4 #footer4b a {
+        font-size: small;
+    }
+
+    #footer4 #footer4b #f4b1 img {
+        width: 40px;
+    }
+
+    #footer4 #footer4c {
+        margin-left: -50%;
+    }
+
+    #Ef {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Ef #easy {
+        width: 90%;
+    }
+
+    #Ef #featured {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Ef #featured #fe2 {
+        text-align: left;
+        border: none;
+        margin-left: 0%;
+        margin-top: 0%;
+        color: rgb(0, 107, 255);
+
+
+    }
+
+    #Ef #featured #fe2 a:hover {
+        color: black;
+    }
+
+    #Ef #featured #fe2:hover .material-icons {
+        transform: translateX(10px);
+        color: black;
+    }
+
+    #isi {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+
+    }
+    #isi #isiimg img{
+width: 100px;
+margin-bottom: 20px;
+    }
+    #see{
+        text-align: center;
+        width: 80%;
+      }
+      #power #talksale{
+        margin-top: -4.8%;
+      }
 }

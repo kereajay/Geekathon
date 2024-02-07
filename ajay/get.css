@@ -56,7 +56,7 @@ header {
     background-color: white;
     height: 5%;
     border-bottom: 1px solid rgb(225, 225, 225);
-overflow: hidden;
+    overflow: hidden;
 }
 
 .sticky {
@@ -65,6 +65,7 @@ overflow: hidden;
     width: 100%;
     /* background-color: yellow; */
 }
+
 #login {
     margin-left: 62%;
 }
@@ -73,9 +74,11 @@ overflow: hidden;
     text-decoration: none;
     color: rgb(0, 107, 255);
 }
-footer{
+
+footer {
     margin-top: 5%;
 }
+
 #Ef {
     width: 80%;
 
@@ -377,77 +380,347 @@ footer{
     margin-left: 20px;
 
 }
-#main{
+
+#main {
     display: flex;
     flex-direction: row;
     width: 80%;
     margin: auto;
 }
-#left .try{
+
+#left .try {
     color: rgb(0, 107, 255);
-letter-spacing: 1px;
+    letter-spacing: 1px;
 }
-#left h1{
-font-size: 1.5cm;
+
+#left h1 {
+    font-size: 1.5cm;
 }
-#left .free{
+
+#left .free {
     color: rgb(0, 107, 255);
 
 }
-#left p{
-  line-height: 25px;
-  font-size: large;
-  color: rgb(76, 73, 73);
-    }
-    #left1{
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 0%;
-    }
-   #left #left1 .left1a{
-        margin-left: 20px;
-       
-    }
-    #left2{
-        display: flex;
-        flex-direction: row;
-        margin-top: 0px;
-        
-    }
-   #left #left2 .left2a{
+
+#left p {
+    line-height: 25px;
+    font-size: large;
+    color: rgb(76, 73, 73);
+}
+
+#left1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0%;
+}
+
+#left #left1 .left1a {
+    margin-left: 20px;
+
+}
+
+#left2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+
+}
+
+#left #left2 .left2a {
     /* margin-top: 25px; */
-        margin-left: 20px;
-       
-    }
-   #left #left2 .left2b{
-   font-weight: bold;
-       
-    }
-    #right{
-        margin: auto;
-        text-align: center;
-    border: 1px solid rgb(225, 225, 225);
-padding: 55px;
+    margin-left: 20px;
 
+}
+
+#left #left2 .left2b {
+    font-weight: bold;
+
+}
+
+#right {
+    margin: auto;
+    text-align: center;
+    border: 1px solid rgb(225, 225, 225);
+    padding: 55px;
+
+}
+
+#right form {
+    margin-top: 8%;
+}
+
+#right form input {
+    width: 380px;
+    height: 50px;
+    font-size: larger;
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 5px;
+}
+
+#right form input:hover {
+    border: 1px solid rgb(0, 107, 255);
+
+
+}
+
+#right form button {
+    margin-top: 5%;
+    width: 380px;
+    height: 50px;
+    font-size: large;
+    color: white;
+    background-color: rgb(0, 107, 255);
+    border-radius: 10px;
+    border: 1px solid rgb(0, 107, 255);
+}
+
+#hori {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+#hori #hori1 {
+    width: 165px;
+    /* border-bottom: 1px solid red; */
+}
+
+#hori span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: large;
+}
+
+#free {
+    /* width: 80%; */
+    display: flex;
+    flex-direction: column;
+    /* margin: auto;
+        text-align: center; */
+    justify-content: center;
+    margin-top: 10%;
+}
+
+#free #google {
+    width: 380px;
+    height: 60px;
+    /* background-color: rgb(0, 107, 255); */
+
+    display: flex;
+    border-radius: 5px;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    /* margin-top: 1%; */
+    text-align: center;
+    color: black;
+    border: 1px solid rgb(157, 156, 156);
+
+
+}
+
+#free #google:hover {
+    cursor: pointer;
+    border: 1px solid rgb(0, 107, 255);
+    color: rgb(0, 107, 255);
+
+
+}
+
+#free #google svg {
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    background-color: white;
+    margin-left: 70px;
+}
+
+#free #microsoft {
+    width: 380px;
+    height: 60px;
+
+    /* background-color: rgb(0, 107, 255); */
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    /* margin-left: 10px; */
+    color: black;
+    border: 1px solid rgb(157, 156, 156);
+    /* margin-top: 1%; */
+}
+
+#free #microsoft:hover {
+    cursor: pointer;
+    border: 1px solid rgb(0, 107, 255);
+    color: rgb(0, 107, 255);
+
+
+}
+
+#free #microsoft svg {
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    background-color: white;
+    margin-left: 70px;
+}
+
+#log a {
+    text-decoration: none;
+    color: rgb(0, 107, 255);
+
+
+}
+
+#log {
+    margin-top: 10%;
+}
+
+#footer4c .bi {
+    font-size: x-large;
+    margin-left: 20px;
+
+}
+
+@media screen and (max-width:1200px) {
+    #main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #right {
+        margin-left: 0%;
+    }
+
+    #Ef #featured {
+        width: 85%;
+    }
+
+    #footer4 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #footer4 #footer4c {
+        margin-left: -75%;
+    }
+
+}
+
+@media screen and (max-width:1000px) {
+    #Ef {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    #login {
+        margin-left: 50%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    #Ef {
+        width: 80%;
+    }
+
+    #easy {
+        width: 95%;
+    }
+
+    #Ef #featured {
+        width: 100%;
+    }
+
+    #Ef #featured #fe2 {
+        margin-left: 0%;
+    }
+
+    #Ef #featured #fe1 {
+        width: 60%;
+    }
+
+    #footer4 #footer4b a {
+        font-size: 12px;
+
+    }
+
+    #footer4 #footer4b {
+        width: 95%;
+    }
+
+    #footer4 #footer4c {
+        margin-left: -60%;
+    }
+
+    #footer2 #footer2a {
+        margin-left: 10px;
+    }
+
+    #footer2 #footer2b {
+        margin-left: 20px;
+    }
+
+    #footer2 #footer2c {
+        margin-left: 20px;
+    }
+
+    #footer3 #footer3a {
+        margin-left: 10px;
+    }
+
+    #footer3 #footer3b {
+        margin-left: 20px;
+    }
+
+    #footer3 #footer3c {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    #login {
+        margin-left: 40%;
+    }
+
+    #right h2{
+      padding: 15px;
+        font-size: larger;
+        width: 80%;
+       margin: auto;
     }
     #right form{
-        margin-top: 8%;
+        margin-top: 0%;
     }
-    #right form input{
-        width: 380px;
+    #right form input {
+        width: 300px;
         height: 50px;
         font-size: larger;
-    border: 1px solid rgb(225, 225, 225);
-   border-radius: 5px;
+        border: 1px solid rgb(225, 225, 225);
+        border-radius: 5px;
     }
-    #right form input:hover{
+    
+    #right form input:hover {
         border: 1px solid rgb(0, 107, 255);
-   
- 
+    
+    
     }
-    #right form button{
+    
+    #right form button {
         margin-top: 5%;
-        width: 380px;
+        width: 300px;
         height: 50px;
         font-size: large;
         color: white;
@@ -465,7 +738,7 @@ padding: 55px;
     }
     
     #hori #hori1 {
-        width: 165px;
+        width: 125px;
         /* border-bottom: 1px solid red; */
     }
     
@@ -474,21 +747,11 @@ padding: 55px;
         margin-right: 10px;
         font-size: large;
     }
-    #free {
-        /* width: 80%; */
-        display: flex;
-        flex-direction: column;
-        /* margin: auto;
-        text-align: center; */
-        justify-content: center;
-        margin-top: 10%;
-    }
-    
     #free #google {
-        width: 380px;
+        width: 300px;
         height: 60px;
         /* background-color: rgb(0, 107, 255); */
-
+    
         display: flex;
         border-radius: 5px;
         color: white;
@@ -498,16 +761,16 @@ padding: 55px;
         text-align: center;
         color: black;
         border: 1px solid rgb(157, 156, 156);
-
+    
     
     }
     
     #free #google:hover {
         cursor: pointer;
         border: 1px solid rgb(0, 107, 255);
-    color: rgb(0, 107, 255);
-
-
+        color: rgb(0, 107, 255);
+    
+    
     }
     
     #free #google svg {
@@ -517,11 +780,11 @@ padding: 55px;
         margin-top: 7px;
         margin-bottom: 7px;
         background-color: white;
-        margin-left: 70px;
+        margin-left: 20px;
     }
     
     #free #microsoft {
-        width: 380px;
+        width: 300px;
         height: 60px;
     
         /* background-color: rgb(0, 107, 255); */
@@ -540,9 +803,9 @@ padding: 55px;
     #free #microsoft:hover {
         cursor: pointer;
         border: 1px solid rgb(0, 107, 255);
-    color: rgb(0, 107, 255);
-
-
+        color: rgb(0, 107, 255);
+    
+    
     }
     
     #free #microsoft svg {
@@ -552,15 +815,62 @@ padding: 55px;
         margin-top: 7px;
         margin-bottom: 7px;
         background-color: white;
-        margin-left: 70px;
+        margin-left: 20px;
     }
-    #log a{
-        text-decoration: none;
-    color: rgb(0, 107, 255);
-   
+    #footer4 #footer4c {
+        margin-left: -50%;
+    }
+    #Ef #featured{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #Ef #featured #fe2{
+        width: 140px;
+        border: none;
+        margin-top: 0%;
+        color: rgb(0, 107, 255);
+    }
+    #Ef #featured #fe2 p{
+font-size: 14px;
+    }
+    #Ef #featured #fe2 .material-icons{
+font-size: 18px;
+        
+    }
+    #Ef #featured #fe2:hover .material-icons{
+        transform: translatex(10px);
+    }
+    #Ef #featured #fe2:hover{
+        cursor: pointer;
+        color: black;
+    }
+    #footer2{
+        display: flex;
+        flex-direction: column;
+    }
+    #footer2 #footer2a{
+        margin-bottom: 20px;
+    }
+    #footer2 #footer2b{
+        margin-bottom: 20px;
+    }
+    #footer2 #footer2c{
+        margin-bottom: 20px;
+    }
+    #footer3{
+        display: flex;
+        flex-direction: column;
+    }
+    #footer3 #footer3a{
+        margin-bottom: 20px;
+    }
+    #footer3 #footer3b{
+        margin-bottom: 20px;
+    }
+    #footer3 #footer3c{
+        margin-bottom: 20px;
+    }
 
-    }
-    #log{
-        margin-top: 10%;
-    }
-
+    
+}
