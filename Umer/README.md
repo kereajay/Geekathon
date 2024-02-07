@@ -55,7 +55,7 @@
 ## Development Stack
 
 - 🌐 HTML and 🎨 CSS for structuring and styling web content.
-- 🎭 AOS Library for captivating animations.
+- 🎭 [AOS Library ](https://github.com/michalsnik/aos) for captivating animations.
 
 ## Features
 
@@ -75,7 +75,7 @@
 
 ![Home Page](./Screenshots/sol1.png)
 
-### Solution Page
+### Solutions Page
 
 ![Home Page](./Screenshots/sol2.png)
 
