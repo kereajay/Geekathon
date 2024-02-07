@@ -215,7 +215,7 @@ header {
   margin-top: 70px;
 }
 @media only screen and(max-width:600px) {
-  .belowheader .belowheader2 .container3 {
+  .belowheader .belowheader2  {
     padding: 20px;
     font-size: 7px;
   }
@@ -232,6 +232,8 @@ header {
   color: rgb(11, 53, 88);
   font-weight: 700;
 }
+/* expectation part */
+
 .belowheader3 {
   /* border: 2px solid black; */
   display: flex;
@@ -239,6 +241,7 @@ header {
   align-items: center;
   /* height: 600px; */
   flex-direction: column;
+  margin-top: 30px;
 }
 .content {
   border-right: 1px solid rgba(0, 0, 0, 0.283);
@@ -288,10 +291,12 @@ header {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
 }
+/* extention css */
 
 .container3 {
   padding: 15px 9%;
   padding-bottom: 100px;
+  
 }
 .container3 .heading {
   text-align: center;
@@ -314,11 +319,13 @@ header {
   z-index: 10; */
   display: flex;
   gap: 15px;
+  margin-top: 30px;
 }
 .box3 {
   border: 1px solid rgba(106, 95, 95, 0.273);
   border-radius:10px;
   width: 500px;
+  margin-top: 30px;
   
 }
 .p {
@@ -326,7 +333,7 @@ header {
   text-align: center;
   color: rgb(11, 53, 88);
   font-size: 1.25rem;
-  line-height: 1.4;
+  line-height: 1.7;
   font-weight: 700;
   text-align: center;
 }
@@ -335,6 +342,57 @@ header {
     background-size: cover;
     border-radius: 10px;
 }
+
+  /* organisation css */
+  .heading-organisation{
+    color: rgb(11, 53, 88);
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.organisation-content span{
+   
+    cursor: pointer;
+}
+.organisation-content{
+ 
+  /* height: 900px; */
+  /* margin-top: 60px; */
+ padding: 120px;
+ width: 100%;
+ /* display: flex; */
+ margin-left: 70px;
+ 
+ 
+ 
+ 
+}
+.content-img{
+   
+    display: flex;
+    align-content: center;
+    
+    
+    
+}
+.organisation-content h3{
+    color: rgb(11, 53, 88);
+    font-size: 1.25rem;
+    line-height: 2.7;
+    font-weight: 600;
+    margin-top: 30px;
+    
+}
+.content-img img{
+    width: 44vw;
+    height: 75vh;
+    /* margin-left: auto; */
+    margin-right: 40px;
+    margin-top: 70px;
+    
+}
+
 
 
 #login {
