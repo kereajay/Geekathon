@@ -1713,7 +1713,7 @@ footer {
         /* margin: auto; */
     }
 
-   
+
 
     #smarter {
         width: 60%;
@@ -1764,14 +1764,16 @@ footer {
         margin: auto;
         margin-bottom: 0%;
     }
+
     #sales {
         display: grid;
         grid-template-columns: 1fr 1fr;
         /* grid-template-rows: 200px; */
         width: 80%;
         margin: auto;
-    
+
     }
+
     #together #Meeting {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -1779,7 +1781,7 @@ footer {
         width: 80%;
         margin: auto;
     }
-    
+
     #together #team {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -1787,7 +1789,7 @@ footer {
         width: 80%;
         margin: auto;
     }
-    
+
     #together #number {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -1795,6 +1797,7 @@ footer {
         width: 80%;
         margin: auto;
     }
+
     #company #percentage {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -1802,20 +1805,23 @@ footer {
         margin: auto;
         color: rgb(5, 51, 51);
         margin-top: 5%;
-    
-    
+
+
     }
+
     #company #percentage #percentage1 {
         /* margin-left: 10%; */
         width: 80%;
     }
-  
-   #Ef{
-    width: 90%;
-   }
-    #Ef #featured{
-        width:65% ;
+
+    #Ef {
+        width: 90%;
     }
+
+    #Ef #featured {
+        width: 65%;
+    }
+
     #Ef #featured #fe2 {
         text-align: center;
         /* margin-top: 60px; */
@@ -1827,30 +1833,34 @@ footer {
         width: 170px;
         border-radius: 10px;
     }
-    
+
     #Ef #featured #fe2 .material-icons {
         /* font-size:25px; */
         margin-top: 13px;
         margin-left: 10px;
     }
-    
+
     #Ef #featured #fe2 p {
         margin-left: 15px;
     }
-    footer #footer2{
+
+    footer #footer2 {
         width: 90%;
     }
-    footer #footer3{
+
+    footer #footer3 {
         width: 90%;
     }
-    #footer4{
+
+    #footer4 {
         display: flex;
         flex-direction: column;
         width: 90%;
-       }
-       #footer4 #footer4c{
-       margin-left: -80%;
-       }
+    }
+
+    #footer4 #footer4c {
+        margin-left: -80%;
+    }
 }
 
 @media screen and (max-width:1200px) {
@@ -1929,27 +1939,33 @@ footer {
         /* margin: auto; */
 
     }
-    #video{
+
+    #video {
         margin-top: -20%;
     }
+
     #simplefied p {
-       
+
         margin-top: 15%;
     }
+
     #smarter {
         width: 65%;
     }
+
     #slaesnav {
         width: 75%;
     }
+
     #sales {
         display: grid;
         grid-template-columns: 1fr 1fr;
         /* grid-template-rows: 200px; */
         width: 90%;
         margin: auto;
-    
+
     }
+
     #logo2 {
         display: flex;
         flex-direction: row;
@@ -1969,24 +1985,27 @@ footer {
         margin: auto;
         margin-bottom: 0%;
     }
+
     #logo2 #logo2d img {
 
         padding: 10px;
-    
+
         width: 90px;
         /* box-shadow: 1px 1px 1px #aaaaaa; */
         /* box-shadow: 0px 04px 4px  blue; */
     }
-    
+
     #video2 video {
         width: 800px;
         margin-left: 0%;
     }
-    #company{
+
+    #company {
         margin-top: -15%;
     }
-    #company #story a{
-      font-size: 15px;
+
+    #company #story a {
+        font-size: 15px;
     }
 
 }
@@ -2064,16 +2083,18 @@ footer {
         height: 850px;
         width: 850px;
     }
-   
-    #company #story a{
+
+    #company #story a {
         font-size: 13px;
-      }
-      #isi{
+    }
+
+    #isi {
         width: 70%;
         /* margin-left: 0%; */
         margin: auto;
-      }
-      #logo2 {
+    }
+
+    #logo2 {
         display: flex;
         flex-direction: row;
         /* background-color: aqua; */
@@ -2092,8 +2113,9 @@ footer {
         margin: auto;
         margin-bottom: 0%;
     }
-    #Ef #featured{
-        width:75% ;
+
+    #Ef #featured {
+        width: 75%;
     }
 }
 
@@ -2171,28 +2193,34 @@ footer {
         margin-bottom: 0%;
         padding-bottom: 0%;
     }
+
     #simplefied p {
-      /* color: red; */
+        /* color: red; */
         margin-top: 0%;
     }
+
     #smarter {
         width: 80%;
     }
+
     #slaesnav {
         width: 90%;
     }
+
     #sales {
         display: grid;
         grid-template-columns: 1fr 1fr;
         /* grid-template-rows: 200px; */
         width: 90%;
         margin: auto;
-    
+
     }
-    #abovelogo{
+
+    #abovelogo {
         margin-top: 40%;
         width: 90%;
     }
+
     #logo2 {
         display: flex;
         flex-direction: row;
@@ -2212,25 +2240,30 @@ footer {
         margin: auto;
         margin-bottom: 0%;
     }
-    #video2 video{
+
+    #video2 video {
         width: 650px;
     }
+
     #company {
         width: 95%;
         margin: auto;
         margin-top: -30%;
     }
+
     #company #percentage #percentage1 {
         /* margin-left: 10%; */
         width: 90%;
     }
-    #isi{
+
+    #isi {
         width: 78%;
         /* margin-left: 0%; */
         margin: auto;
-      }
-      #Ef #featured{
-        width:100% ;
+    }
+
+    #Ef #featured {
+        width: 100%;
     }
 }
 
@@ -2262,162 +2295,206 @@ footer {
         margin-bottom: 0%;
         padding-bottom: 0%;
     }
+
     #simplefied p {
         /* color: red; */
-          margin-top: -10%;
-          font-size: 23px;
-          padding-top: 0%;
-      }
-      #smarter{
+        margin-top: -10%;
+        font-size: 23px;
+        padding-top: 0%;
+    }
+
+    #smarter {
         width: 90%;
-      }
-      #smarter h1{
+    }
+
+    #smarter h1 {
         font-size: 1cm;
-      }
-      #slaesnav{
+    }
+
+    #slaesnav {
         width: 100%;
         margin-left: 10%;
-      }
-      #sales{
+    }
+
+    #sales {
         display: flex;
         flex-direction: column;
-      }
-      #abovelogo{
-        margin-top:5% ;
+    }
+
+    #abovelogo {
+        margin-top: 5%;
         display: flex;
         flex-direction: column;
-      }
-      #logo1{
+    }
+
+    #logo1 {
         display: flex;
         flex-direction: column;
-        margin-bottom:21% ;
-      }
-      #logo1 #logo1a{
+        margin-bottom: 21%;
+    }
+
+    #logo1 #logo1a {
         width: 20%;
         margin-bottom: 10px;
-      }
-      #logo1 #logo1b{
+    }
+
+    #logo1 #logo1b {
         width: 20%;
         margin-bottom: 10px;
 
-      }
-      #logo1 #logo1c{
+    }
+
+    #logo1 #logo1c {
         width: 20%;
         margin-bottom: 10px;
 
-      }
-      #logo2{
+    }
+
+    #logo2 {
         display: flex;
         flex-direction: column;
-        margin-bottom:40% ;
+        margin-bottom: 40%;
         margin-top: 100%;
         height: 100vh;
-      }
-      #logo2 #logo2a{
+    }
+
+    #logo2 #logo2a {
         width: 20%;
         margin-bottom: 10px;
-      }
-      #logo2 #logo2b{
+    }
+
+    #logo2 #logo2b {
         width: 20%;
         margin-bottom: 10px;
 
-      }
-      #logo2 #logo2c{
+    }
+
+    #logo2 #logo2c {
         width: 20%;
         margin-bottom: 10px;
 
-      }
-      #logo2 #logo2d{
+    }
+
+    #logo2 #logo2d {
         width: 20%;
         margin-bottom: 10px;
 
-      }
-      #together h1{
+    }
+
+    #together h1 {
         font-size: 1cm;
-      }
-      #together #Meeting{
+    }
+
+    #together #Meeting {
         display: flex;
         flex-direction: column;
-      }
-      #see{
+    }
+
+    #see {
         text-align: center;
         width: 50%;
-      }
-      #see h1{
+    }
+
+    #see h1 {
         font-size: 0.8cm;
-      }
-      #see p{
-        font-size: 15px;width: 350px;
-      }
-      #see #for{
+    }
+
+    #see p {
+        font-size: 15px;
+        width: 350px;
+    }
+
+    #see #for {
         margin-bottom: 5%;
-      }
-      #video2 video{
+    }
+
+    #video2 video {
         width: 600px;
         margin-bottom: 0%;
-        
-      }
-      #video2{
+
+    }
+
+    #video2 {
         margin-bottom: 0%;
-      }
-      #company #dc{
+    }
+
+    #company #dc {
         display: flex;
         flex-direction: column;
-      }
-      #company #cimage{
+    }
+
+    #company #cimage {
         display: flex;
         flex-direction: column;
-      }
-      #company #cimage #cimage1{
+    }
+
+    #company #cimage #cimage1 {
         margin-bottom: 20px;
 
-      }
-      #company #cimage #cimage2{
+    }
+
+    #company #cimage #cimage2 {
         margin-bottom: 20px;
 
-      }
-      #company #cimage #cimage3{
+    }
+
+    #company #cimage #cimage3 {
         margin-bottom: 20px;
 
-      }
-      #company #cimage #cimage4{
+    }
+
+    #company #cimage #cimage4 {
         margin-bottom: 20px;
 
-      }
-      #company #cimage #cimage5{
+    }
+
+    #company #cimage #cimage5 {
         margin-bottom: 20px;
 
-      }
-      #company #percentage{
+    }
+
+    #company #percentage {
         display: flex;
         flex-direction: column;
-      }
-      #organization h1{
+    }
+
+    #organization h1 {
         font-size: 1cm;
-      }
-      #isi #isiimg img{
-           width: 80px;
-           
-      }
-      #isi {
+    }
+
+    #isi #isiimg img {
+        width: 80px;
+
+    }
+
+    #isi {
         width: 90%;
-      }
-      #keep p{
+    }
+
+    #keep p {
         font-size: 15px;
-      }
-      #power #talksale{
+    }
+
+    #power #talksale {
         margin-top: -2.5%;
-      }
-      #Ef{
+    }
+
+    #Ef {
         display: flex;
         flex-direction: column;
-      }
-      #footer2 #footer2b {
-       margin-left: 20px;
-      }
-      #footer4 #footer4c{
+    }
+
+    #Ef #easy {
+        width: 90%;
+    }
+
+    #footer2 #footer2b {
+        margin-left: 20px;
+    }
+
+    #footer4 #footer4c {
         margin-left: -70%;
-      }
+    }
 
 }
 
@@ -2504,12 +2581,13 @@ footer {
 
     #simplefied {
         margin-top: -55%;
-       
-     
+
+
 
 
     }
-    #simplefied p{
+
+    #simplefied p {
         font-size: 17px;
     }
 
@@ -2729,15 +2807,44 @@ footer {
         text-align: center;
 
     }
-    #isi #isiimg img{
-width: 100px;
-margin-bottom: 20px;
+
+    #isi #isiimg img {
+        width: 100px;
+        margin-bottom: 20px;
     }
-    #see{
+
+    #see {
         text-align: center;
         width: 80%;
-      }
-      #power #talksale{
+    }
+
+    #power #talksale {
         margin-top: -4.8%;
-      }
+    }
+    #footer2{
+        display: flex;
+        flex-direction: column;
+    }
+    #footer2 #footer2a{
+        margin-bottom: 20px;
+    }
+    #footer2 #footer2b{
+        margin-bottom: 20px;
+    }
+    #footer2 #footer2c{
+        margin-bottom: 20px;
+    }
+    #footer3{
+        display: flex;
+        flex-direction: column;
+    }
+    #footer3 #footer3a{
+        margin-bottom: 20px;
+    }
+    #footer3 #footer3b{
+        margin-bottom: 20px;
+    }
+    #footer3 #footer3c{
+        margin-bottom: 20px;
+    }
 }
