@@ -40,7 +40,6 @@ body {
 #english:hover {
   color: rgb(0, 107, 255);
   cursor: pointer;
-  
 }
 
 #calendlyimage {
@@ -68,7 +67,6 @@ header {
   display: flex;
   flex-direction: row;
   text-align: center;
-  
 }
 
 #navbar a {
@@ -116,7 +114,6 @@ header {
   text-decoration: none;
   position: relative;
   font-weight: 500px;
- 
 }
 #learnmorebox {
   display: flex;
@@ -158,13 +155,11 @@ header {
   margin-left: 25px;
 }
 
-
-*{
+* {
   margin: 0;
   padding: 0;
-  
 }
-.svg img{
+.svg img {
   margin-right: 60px;
   justify-content: space-around;
   /* width: 130px;
@@ -173,23 +168,12 @@ header {
   width: auto;
   max-width: 132px;
   padding: 12px;
-
-
-
 }
 
-.marquee{
- 
+.marquee {
   width: 100vw;
   display: inline-block;
 }
-
-
-
-
-
-
-
 
 .box {
   border: 1px solid rgba(140, 142, 162, 0.182);
@@ -198,8 +182,7 @@ header {
   font-size: 1.25rem;
   /* box-shadow: 0 5px 10px rgba(0,0,0,0.2); */
   text-align: left;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
-  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .flex-container {
   padding: 15px 9%;
@@ -215,7 +198,7 @@ header {
   margin-top: 70px;
 }
 @media only screen and(max-width:600px) {
-  .belowheader .belowheader2  {
+  .belowheader .belowheader2 {
     padding: 20px;
     font-size: 7px;
   }
@@ -226,13 +209,12 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   gap: 30px;
   /* align-items: center; */
-  
 }
 .flex-container h3 {
   color: rgb(11, 53, 88);
   font-weight: 700;
 }
-/* expectation part */
+/* ----------------expectation part --------------------*/
 
 .belowheader3 {
   /* border: 2px solid black; */
@@ -291,12 +273,11 @@ header {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
 }
-/* extention css */
+/*--------------------- extention css -------------------------*/
 
 .container3 {
   padding: 15px 9%;
   padding-bottom: 100px;
-  
 }
 .container3 .heading {
   text-align: center;
@@ -323,10 +304,9 @@ header {
 }
 .box3 {
   border: 1px solid rgba(106, 95, 95, 0.273);
-  border-radius:10px;
+  border-radius: 10px;
   width: 500px;
   margin-top: 30px;
-  
 }
 .p {
   margin-bottom: 16px;
@@ -337,64 +317,134 @@ header {
   font-weight: 700;
   text-align: center;
 }
-.image{
-    width: 100%;
-    background-size: cover;
-    border-radius: 10px;
+.image {
+  width: 100%;
+  background-size: cover;
+  border-radius: 10px;
 }
 
-  /* organisation css */
-  .heading-organisation{
-    color: rgb(11, 53, 88);
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    margin-top: 50px;
+/*------------------- organisation css---------------------- */
+.heading-organisation {
+  color: rgb(11, 53, 88);
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin-top: 50px;
 }
-.organisation-content span{
-   
-    cursor: pointer;
+.organisation-content span {
+  cursor: pointer;
 }
-.organisation-content{
- 
+.organisation-content {
   /* height: 900px; */
   /* margin-top: 60px; */
- padding: 120px;
- width: 100%;
- /* display: flex; */
- margin-left: 70px;
- 
- 
- 
- 
+  padding: 120px;
+  width: 100%;
+  /* display: flex; */
+  margin-left: 70px;
 }
-.content-img{
-   
-    display: flex;
-    align-content: center;
-    
-    
-    
+.content-img {
+  display: flex;
+  align-content: center;
 }
-.organisation-content h3{
-    color: rgb(11, 53, 88);
-    font-size: 1.25rem;
-    line-height: 2.7;
-    font-weight: 600;
-    margin-top: 30px;
-    
+.organisation-content h3 {
+  color: rgb(11, 53, 88);
+  font-size: 1.25rem;
+  line-height: 2.7;
+  font-weight: 600;
+  margin-top: 30px;
 }
-.content-img img{
-    width: 44vw;
-    height: 75vh;
-    /* margin-left: auto; */
-    margin-right: 40px;
-    margin-top: 70px;
-    
+.content-img img {
+  width: 44vw;
+  height: 75vh;
+  /* margin-left: auto; */
+  margin-right: 40px;
+  margin-top: 70px;
+}
+       /*----------------- automation css -------------- */
+.automation h3 {
+  font-size: 2.375rem;
+  line-height: 1.2;
+  text-align: center;
+  color: rgb(11, 53, 88);
+  font-weight: 500;
+}
+.automation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 54px 38px;
+}
+section {
+  background-color: rgb(244, 248, 255);
+  border-radius: 34px;
+
+  /* margin-left: 40px; */
+  margin: 30px;
+  /* padding:30px; */
+}
+
+
+/*-------------- video part css-----------------*/
+section {
+  display: flex;
+  justify-content: center;
+}
+footer img {
+  object-fit: cover;
+  width: 72px;
+  min-width: auto;
+  max-width: 100%;
+  height: 72px;
+  min-height: auto;
+  max-height: 100%;
+  border-radius: 50%;
+}
+.personname {
+  color: rgb(11, 53, 88);
+  font-size: 1.125rem;
+  line-height: 1.6;
+  font-weight: 600;
+}
+.workfor {
+  color: rgb(71, 103, 136);
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 400;
+}
+footer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 900px;
+}
+
+.thumbnailimg {
+  width: 400px;
+  border-radius: 10px;
+}
+.maindiv {
+  display: flex;
+  margin: 60px;
+}
+.sub-child p {
+  width: 800px;
+}
+.child-div {
+  padding: 30px;
+  height: 100px;
+  width: 100%;
+}
+.sub-child {
+  gap: px;
 }
 
 
 
+
+
+
+/* ----------------------------- */
 #login {
   margin-left: 12%;
 }
