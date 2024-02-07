@@ -28,7 +28,6 @@ body {
     flex-direction: row;
     background-color: aliceblue;
     text-align: center;
-    /* font-size: 20px; */
     color: rgb(100, 118, 152);
 
     padding-left: 80%;
@@ -56,7 +55,6 @@ body {
 }
 
 #calendlyimage {
-    /* margin-top: 0; */
     margin-left: 10%;
 
 }
@@ -66,7 +64,6 @@ header {
     text-align: center;
     padding-top: 1.5%;
     padding-bottom: 0.5%;
-    /* justify-content: center; */
     position: sticky;
     top: 0;
     width: 100%;
@@ -125,9 +122,6 @@ header{
 
 #Ef {
     width: 80%;
-
-    /* text-align: center; */
-    /* background-color: aqua; */
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -139,7 +133,6 @@ header{
 }
 
 #easy h1 {
-    /* display: flex; */
     font-size: 1.2cm;
 
 
@@ -159,7 +152,6 @@ header{
 
 #easy p {
     font-size: larger;
-    /* column-width: 200px; */
 }
 
 #featured {
@@ -192,7 +184,6 @@ header{
 }
 
 #Ef #featured #fe2 .material-icons {
-    /* font-size:25px; */
     margin-top: 13px;
     margin-left: 10px;
 }
@@ -204,7 +195,6 @@ header{
         /* page1 */
 
 .page1{
-    /* margin-top: 70px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -278,7 +268,6 @@ header{
 .wrap_button .demo a{
     
     text-decoration: none;
-    /* text-align: center; */
     color: rgb(0,107,255);
 }
 .img1{
@@ -358,7 +347,6 @@ animation-iteration-count: infinite;
     justify-content: center;
     align-items: center;
     width:100%;
-    /* border: 2px solid black; */
     background-color: rgb(248,249,251);
 }
 .page3 .steps{
@@ -371,7 +359,6 @@ animation-iteration-count: infinite;
 }
 .text{
     width: 50%;
-    /* height: 500px; */
 }
 .img2{
     width: 50%;
@@ -411,7 +398,6 @@ animation-iteration-count: infinite;
 /* page4 */
 
 .page4{
-    /* border: 3px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -450,8 +436,6 @@ animation-iteration-count: infinite;
     border-radius: 10px;
     padding: 8px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    /* position: fixed; */
-    /* top: 30; */
 }
 
 .page4 .icon .icons:hover{
@@ -466,7 +450,6 @@ animation-iteration-count: infinite;
     border: 3px solid transparent;
     height: 100%;
     padding-top: 10px;
-    /* margin-top: 5px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -491,7 +474,6 @@ animation-iteration-count: infinite;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid red; */
     margin-bottom: 4%;
 }
 
@@ -818,7 +800,6 @@ animation-iteration-count: infinite;
     margin: 12%;
     width: 20%;
     text-align: center;
-    /* border: 2px solid white; */
 }
 
 .last .lst_bttn > a{
@@ -834,136 +815,7 @@ animation-iteration-count: infinite;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* footer */
 
 #footer2 {
     width: 80%;
@@ -1066,7 +918,6 @@ animation-iteration-count: infinite;
 }
 
 #footer2c .wh {
-    /* font-weight: small; */
     color: rgb(0, 107, 255);
     background-color: rgb(194, 194, 236);
     padding: 4px;
