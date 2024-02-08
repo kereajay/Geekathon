@@ -2335,7 +2335,7 @@ footer {
     #logo1 {
         display: flex;
         flex-direction: column;
-        margin-bottom: 21%;
+        margin-bottom: 25%;
     }
 
     #logo1 #logo1a {
@@ -2358,9 +2358,10 @@ footer {
     #logo2 {
         display: flex;
         flex-direction: column;
-        margin-bottom: 40%;
-        margin-top: 100%;
+        margin-bottom: 50%;
+        margin-top: 95%;
         height: 100vh;
+        /* height: 100vh; */
     }
 
     #logo2 #logo2a {
@@ -2384,6 +2385,10 @@ footer {
         width: 20%;
         margin-bottom: 10px;
 
+    }
+    #together{
+        margin-top: 0%;
+        height: 90vh;
     }
 
     #together h1 {
@@ -2690,9 +2695,12 @@ footer {
     #logo2 {
         display: flex;
         flex-direction: column;
-        height: 150vh;
+        height: 100vh;
         margin-top: 50%;
 
+    }
+    #together{
+        margin-top: 0%;
     }
 
     #logo2 #logo2a {
