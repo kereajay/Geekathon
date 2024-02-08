@@ -464,7 +464,7 @@
  .pricing-table {
      position: sticky;
      background-color: white;
-     top: 0;
+     top: 9%;
      z-index: 2;
  }
 
@@ -978,11 +978,14 @@
      padding-bottom: 0.5%;
      /* justify-content: center; */
      /* position: fixed; */
+     position: fixed;
      width: 100%;
      background-color: white;
      height: 5%;
      border-bottom: 1px solid rgb(225, 225, 225);
      overflow: hidden;
+     z-index: 20;
+     /* background-color: white; */
  }
 
  .sticky {
