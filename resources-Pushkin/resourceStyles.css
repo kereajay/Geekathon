@@ -61,6 +61,10 @@ header {
   border-bottom: 1px solid rgb(225, 225, 225);
   z-index: 1;
 }
+#ham {
+  content-visibility: hidden;
+  display: none;
+}
 .sticky {
   position: fixed;
   top: 0;
