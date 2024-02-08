@@ -41,21 +41,21 @@ Take a quick round of our Calendly UI clone.
 
 ### Screenshots
 **Home page**
-![Home page](../Geekathon/ajay/Screenshot%20(403).png)
+![Home page](../Geekathon/Screenshot%20(403).png)
 **Product page**
-![Product page](../Geekathon/ajay/Screenshot%20(404).png)
+![Product page](../Geekathon/Screenshot%20(404).png)
 **Solutions page**
-![Solutions page](../Geekathon/ajay/Screenshot%20(405).png)
+![Solutions page](../Geekathon/Screenshot%20(405).png)
 **Enterprise page**
-![Enterprise page](../Geekathon/ajay/Screenshot%20(406).png)
+![Enterprise page](../Geekathon/Screenshot%20(406).png)
 **Pricing page**
-![Pricing page](../Geekathon/ajay/Screenshot%20(407).png)
+![Pricing page](../Geekathon/Screenshot%20(407).png)
 **Resources page**
-![Resources page](../Geekathon/ajay/Screenshot%20(408).png)
+![Resources page](../Geekathon/Screenshot%20(408).png)
 **Login page**
-![Login page](../Geekathon/ajay/Screenshot%20(409).png)
+![Login page](../Geekathon/Screenshot%20(409).png)
 **Getstarted page**
-![Getstarted page](../Geekathon/ajay/Screenshot%20(410).png)
+![Getstarted page](../Geekathon/Screenshot%20(410).png)
 
 ### Credits
 1. [Ajay](https://www.linkedin.com/in/ajay-kere-443119220/)
