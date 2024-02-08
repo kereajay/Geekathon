@@ -63,6 +63,7 @@ header {
 #head #ham {
   content-visibility: hidden;
 }
+
 .sticky {
   position: fixed;
   top: 0;
@@ -758,7 +759,7 @@ header {
   }
 
   #navbar {
-    width: 100%;
+    /* width: 100%; */
   }
   #navbar > a {
     margin-left: 10px;
@@ -925,9 +926,31 @@ header {
     display: flex;
     flex-direction: column;
   }
-  #Ef {
+  #Ef #easy {
+    width: 90%;
+  }
+
+  #Ef #featured {
+    width: 100%;
     display: flex;
     flex-direction: column;
+  }
+
+  #Ef #featured #fe2 {
+    text-align: left;
+    border: none;
+    margin-left: 0%;
+    margin-top: 0%;
+    color: rgb(0, 107, 255);
+  }
+
+  #Ef #featured #fe2 a:hover {
+    color: black;
+  }
+
+  #Ef #featured #fe2:hover .material-icons {
+    transform: translateX(10px);
+    color: black;
   }
   #footer2 #footer2b {
     margin-left: 20px;
