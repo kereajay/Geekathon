@@ -41,7 +41,7 @@ Take a quick round of our Calendly UI clone.
 
 ### Screenshots
 **Home page**
-![Home page](../Geekathon/Screenshot%20(403).png)
+![Home page](/Screenshot%20(403).png)
 **Product page**
 ![Product page](../Geekathon/Screenshot%20(404).png)
 **Solutions page**
