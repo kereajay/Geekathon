@@ -754,7 +754,7 @@ header {
 
 @media screen and (max-width: 1024px) {
   body {
-    width: fit-content%;
+    width: fit-content;
   }
 
   #navbar {
@@ -763,6 +763,23 @@ header {
   #navbar > a {
     margin-left: 10px;
   }
+  header {
+    width: fit-content;
+  }
+
+  #head > #calendlyimage {
+    margin-left: 5px;
+  }
+  #login {
+    /* border: 2px solid red; */
+    margin-left: 20px;
+  }
+
+  #login > #lgin {
+    font-size: 20px;
+    width: 80px;
+  }
+
   .leftside {
     margin-left: 10px;
   }
@@ -788,12 +805,9 @@ header {
     width: fit-content;
   }
 
-  #navbar {
-  }
-
   #english {
+    width: 24%;
   }
-
   #head #login {
     display: none;
   }
@@ -925,9 +939,113 @@ header {
     width: fit-content;
   }
 
+  #ham .material-icons {
+    /* font-size: 40px; */
+    margin-left: 60%;
+  }
+
+  header {
+    width: 95%;
+  }
   .two_btn {
     display: flex;
     flex-direction: column;
     width: 50%;
+  }
+
+  #footer4 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #footer4 #footer4b a {
+    font-size: small;
+  }
+
+  #footer4 #footer4b #f4b1 img {
+    width: 40px;
+  }
+
+  #footer4 #footer4c {
+    margin-left: -50%;
+  }
+
+  #Ef {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #Ef #easy {
+    width: 90%;
+  }
+
+  #Ef #featured {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #Ef #featured #fe2 {
+    text-align: left;
+    border: none;
+    margin-left: 0%;
+    margin-top: 0%;
+    color: rgb(0, 107, 255);
+  }
+
+  #Ef #featured #fe2 a:hover {
+    color: black;
+  }
+
+  #Ef #featured #fe2:hover .material-icons {
+    transform: translateX(10px);
+    color: black;
+  }
+
+  #isi {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+  }
+
+  #isi #isiimg img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+
+  #see {
+    text-align: center;
+    width: 80%;
+  }
+
+  #power #talksale {
+    margin-top: -4.8%;
+  }
+  #footer2 {
+    display: flex;
+    flex-direction: column;
+  }
+  #footer2 #footer2a {
+    margin-bottom: 20px;
+  }
+  #footer2 #footer2b {
+    margin-bottom: 20px;
+  }
+  #footer2 #footer2c {
+    margin-bottom: 20px;
+  }
+  #footer3 {
+    display: flex;
+    flex-direction: column;
+  }
+  #footer3 #footer3a {
+    margin-bottom: 20px;
+  }
+  #footer3 #footer3b {
+    margin-bottom: 20px;
+  }
+  #footer3 #footer3c {
+    margin-bottom: 20px;
   }
 }
